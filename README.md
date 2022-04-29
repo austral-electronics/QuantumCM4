@@ -1,7 +1,6 @@
 # 1. QUANTUM ULTIMA OEM
 
-todo
-![Quantum_OEM_02 Brief]("/pdf/Quantum_OEM_02 Brief.pdf")
+bbla [Quantum_OEM_02 Brief]("https://github.com/austral-electronics/QuantumUltima/pdf/Quantum_OEM_02~Brief.pdf")
 
 
 # 2. INSTALL DEBIAN HEADLESS
