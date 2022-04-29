@@ -8,10 +8,13 @@ todo
 * Download the image from : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 * Insert a Micro SD-Card in an USB3.0 Card Reader
 * Launch the imager
+* Choose a personalized image and select the downloaded image
 * Select the SD-card
-* Choose  
+* Click on the gear icon to configure to the Advanced options  
 
-![Tux, the Linux mascot](/images/tux.png)
+![Tux, the Linux mascot](/images/AdvancedOptions.png)
+
+* Program the Micro SD-Card
 
 ## 2.1 Configure 
 
