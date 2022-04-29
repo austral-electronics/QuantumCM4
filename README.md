@@ -1,6 +1,6 @@
 # 1. QUANTUM ULTIMA OEM
 
-[Quantum_OEM_02 Brief](https://github.com/austral-electronics/QuantumUltima/pdf/Quantum_OEM_02_Brief.pdf)
+Hardware specifications and installation [Quantum_OEM_02 Brief](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
 
 # 2. INSTALL DEBIAN HEADLESS
