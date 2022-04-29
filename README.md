@@ -1,6 +1,8 @@
 # 1. QUANTUM ULTIMA OEM
 
 todo
+![Quantum_OEM_02 Brief]("/pdf/Quantum_OEM_02 Brief.pdf")
+
 
 # 2. INSTALL DEBIAN HEADLESS
 ## 2.1 Program the Micro SD-Card
@@ -10,9 +12,9 @@ todo
 * Launch the imager
 * Choose a personalized image and select the downloaded image
 * Select the SD-card
-* Click on the gear icon to configure to the Advanced options  
+* Click on the gear icon to configure to the Advanced Options  
 
-![Tux, the Linux mascot](/images/AdvancedOptions.png)
+![Advanced Options](/images/AdvancedOptions.png)
 
 * Program the Micro SD-Card
 
