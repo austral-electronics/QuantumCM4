@@ -10,11 +10,35 @@ It is designed for low latency applications using remote in browser displays and
 
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
+# 2. INSTALL AN OS ON YOUR QUATUM OEM
+The Quantum OEM Processor is preinstalled with a Debian OS
+## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum OEM
+## 2.2 Get DietPI image for Quantum OEM (Lite version of Debian 11.3 Bullyeye Headless PREEMPT-RT with usefull scripts)
+## 2.3 Program the Micro SD-CARD
+## 2.4 Program the EMMC
+## 2.5 Update the OS
 
-# 2. INSTALL DEBIAN HEADLESS - Version 11.3 "Bulleye"
-## 2.1 Program the Micro SD-Card
+# 4. CONFIGURE AND TEST THE PERIPHERALS
+## 4.1 Bonjour Protocol
+## 4.2 Ethernet
+## 4.3 Wifi
+## 4.4 Samba file server
+## 4.5 Serials
+## 4.6 CANbus
+## 4.7 RTC
+
+# 5. INSTALL THE SDK ON WINDOWS
+## 4.1 Visual Code
+## 4.2 C/C++ Cross Compiler
+## 4.3 Qt
+## 4.4 Cross Debugging
+## 4.5 Git
+## 4.6 Templates
+
+# 3. INSTALL DEBIAN HEADLESS PREEMPT-RT FROM SCRATCH"
+## 3.1 Program the Micro SD-Card
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
-* [Download the lastest qualified .xz image](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
+* [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Insert a Micro SD-Card in an USB3.0 Card Reader
 * Launch the imager
 * Choose a personalized image and select the downloaded image
@@ -25,6 +49,6 @@ It is designed for low latency applications using remote in browser displays and
 
 * Program the Micro SD-Card
 
-## 2.1 Configure 
+## 3.2 Configure Debian 
 
-# 3. INSTALL DIETPI HEADLESS
+# 4. INSTALL DIETPI HEADLESS FROM SCRATCH
