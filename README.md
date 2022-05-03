@@ -1,9 +1,9 @@
 ![Logo](/images/LogoAustral.png)
 
-# 1. QUANTUM CM4
+# 1. QUANTUM CM4 PROCESSOR
 ![QuantumUltima](/images/QuantumUltima.png)
 
-The Quantum CM4 Processor is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
+The **Quantum CM4 Processor** is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 **Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system like a boat, a vehicle, a drone, a machine, an outdoor gateway…
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring…for the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture…
