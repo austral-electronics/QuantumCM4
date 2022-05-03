@@ -1,6 +1,6 @@
 ![Logo](/images/LogoAustral.png)
 
-# 1. QUANTUM ULTIMA CM4
+# 1. QUANTUM CM4
 ![QuantumUltima](/images/QuantumUltima.png)
 
 The Quantum CM4 Processor is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
@@ -10,7 +10,7 @@ It is designed for low latency applications using remote in browser displays and
 
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
-# 2. INSTALL AN OS ON YOUR QUATUM OEM
+# 2. INSTALL AN OS ON YOUR QUATUM CM4
 The Quantum OEM Processor is preinstalled with a Debian OS
 ## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum OEM
 ## 2.2 Program the Micro SD-CARD
