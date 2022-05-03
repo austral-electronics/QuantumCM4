@@ -51,4 +51,8 @@ The Quantum OEM Processor is preinstalled with a Debian OS
 
 ## 3.2 Configure Debian 
 
+wget -O - https://github.com/austral-electronics/QuantumUltima/tree/main/scripts/configure.sh | bash
+
+sudo su -c "bash <(wget -qO- https://github.com/austral-electronics/QuantumUltima/tree/main/scripts/configure.sh)" root
+
 # 4. INSTALL DIETPI HEADLESS FROM SCRATCH
