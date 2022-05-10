@@ -24,6 +24,15 @@ The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall de
 Download the image here (300MB) :
     https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 ## 2.2 Program the Micro SD-CARD
+* [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
+* [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
+* Insert a Micro SD-Card in an USB3.0 Card Reader
+* Launch the imager
+* Choose a personalized image and select the downloaded image
+* Select the SD-card
+* Click on the gear icon to configure to the Advanced Options  
+
+![Advanced Options](/images/AdvancedOptions.png)
 ## 2.3 Program the EMMC
 ## 2.4 Prepare Debian 11.3 Bullseye Headless image from scratch
 **Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4:**
@@ -47,13 +56,15 @@ launch the configuration script :
 ## 3.1 I can't find my IP address
 by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
-### Use Bonjour Protocol
+** Use Bonjour Protocol :**
+
 Install bonjour service on windows : https://support.apple.com/kb/DL999?locale=en_US
 
     ssh quantum@quantum.local   -> Default password=austral
     ifconfig
 
-### Use nmap
+** Use nmap :**
+
 Install nmap : https://nmap.org/download.html
 Launch nmap to scan all DHCP ip addresses
 
