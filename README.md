@@ -16,19 +16,47 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture â
 
 # 2. INSTALL AN OS ON YOUR QUATUM CM4
 The Quantum OEM Processor is preinstalled with a Debian OS
-## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum OEM
+## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4
+Download the image here (300MB) :
+    https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 ## 2.2 Program the Micro SD-CARD
 ## 2.3 Program the EMMC
-## 2.4 Update the OS
+## 2.4 Configure Debian for the Quantum CM4 peripherals
 
-# 4. CONFIGURE AND TEST THE PERIPHERALS
+    ssh quantum@192.168.100.100
+The default password is : austral
+
+launch the configuration script :
+
+    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
+
+# 4. TEST THE PERIPHERALS
 ## 4.1 Bonjour Protocol
 ## 4.2 Ethernet
+by default the ip address is static and is 192.168.100.100
+
+To change IP :
+
+    sudo nano /etc/dhcpcd.conf
+
+    # Example static IP configuration:
+    interface eth0
+    static ip_address=192.168.100.100/24
+
+To use DHCP :
+
+    # Example static IP configuration:
+    #interface eth0
+    #static ip_address=192.168.100.100/24
+
 ## 4.3 Wifi
 ## 4.4 Samba file server
+    sudo nano 
 ## 4.5 Serials
 ## 4.6 CANbus
 ## 4.7 RTC
+
+
 
 # 5. INSTALL THE SDK ON WINDOWS
 ## 4.1 Visual Code
