@@ -54,8 +54,9 @@ Launch nmap to scan all DHCP ip addresses
 
 Linux :
 
-    uname -a            -> Linux Version (quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux)
-    cat /etc/os-release -> Debian version (PRETTY_NAME="Debian GNU/Linux 11 (bullseye)")
+    uname -a                -> Linux Version (quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux)
+    cat /etc/os-release     -> Debian version (PRETTY_NAME="Debian GNU/Linux 11 (bullseye)")
+    cat /etc/debian_version -> Debian version (11.3)
     
 Memories :
 
