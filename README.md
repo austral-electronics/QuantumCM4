@@ -58,7 +58,8 @@ Linux version :
     Linux quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
 
 ## 4.2 Change the system configuration
-
+    sudo raspi-config
+    
 ## 4.3 Ethernet
 by default the ip address is static and is 192.168.100.100
 
@@ -114,6 +115,14 @@ Restart service after smb.conf modifications :
 
     sudo systemctl restart smbd
 
+Service status :
+
+    sudo systemctl status smbd.service
+
+Stop the Samba service :
+
+    sudo systemctl stop smbd.service
+
 Get samba configuration :
 
     testparm -s
@@ -123,10 +132,24 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
     net config workstation
 
 ## 4.6 Serials
+
 ## 4.7 CANbus
+
 ## 4.8 RTC
+To verify the RTC chip response on I2C bus :
+ 
+    sudo i2cdetect -y 1
 
+You must see UU or 68 at Address 0x68
 
+To program the RTC :
+
+    sudo hwclock -D -r
+    date
+    sudo hwclock -w
+    sudo hwclock
+
+## 4.8 Logo backlight
 
 # 5. INSTALL THE SDK ON WINDOWS
 ## 4.1 Visual Code
