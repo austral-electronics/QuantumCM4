@@ -52,26 +52,24 @@ Launch nmap to scan all DHCP ip addresses
 # 4. TEST THE PERIPHERALS    
 ## 4.1 Get the system configuration
 
-Linux version :
+Linux :
 
-    uname -a
-    Linux quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
+    uname -a            -> Version : Linux quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
 
-Partitions :
+Memories :
 
-    cat /etc/fstab
+    cat /etc/fstab      -> Partitions
+    df -h               -> Disk usage
     
-Disk usage :
+Cores :
 
-    df -h
-
-Processors & Memory usage :
-
-    htop
-
-Processors temperature :
-
-    vcgencmd measure_temp
+    htop                        -> Processors & Memory usage
+    vcgencmd measure_temp       -> Cores temperature
+    vcgencmd measure_clock arm  -> Current clock speed. you can try : arm core h264 isp v3d uart pwm emmc pixel vec hdmi dpi
+    vcgencmd measure_volts core -> Current Cores voltage
+    cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq -> Current clock
+    cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq -> Min Clock
+    cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq -> Max Clock
 
 ## 4.2 Change the system configuration
     sudo raspi-config
