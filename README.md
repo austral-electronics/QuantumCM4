@@ -1,6 +1,6 @@
 ![Logo](/images/LogoAustral.png)
 
-# !!!!!!!!!!!! IN REDACTION !!!!!!!!!!!!!!!!!!
+# !!!!!!!!!!!! NEW PRODUCT - IN REDACTION !!!!!!!!!!!!!!!!!!
 
 
 # 1. QUANTUM CM4 PROCESSOR
