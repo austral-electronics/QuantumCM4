@@ -66,6 +66,7 @@ Memories :
 Cores :
 
     htop                        -> Processors & Memory usage
+    cat /proc/cpuinfo           -> Processors models
     vcgencmd measure_temp       -> Cores temperature
     vcgencmd measure_clock arm  -> Current clock speed. you can try : arm core h264 isp v3d uart pwm emmc pixel vec hdmi dpi
     vcgencmd measure_volts core -> Current Cores voltage
