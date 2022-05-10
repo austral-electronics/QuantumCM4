@@ -204,11 +204,12 @@ To test the LED :
 ## 4.1 Visual Code
 ## 4.2 C/C++ Cross Compiler
 ## 4.3 Qt
-## 4.4 Cross Debugging
-## 4.5 Git
-## 4.6 Templates
+## 4.4 Python
+## 4.5 Cross Debugging
+## 4.6 Git
+## 4.7 Templates
 
-# 6. TUTORIALS
+# 6. APPLICATIONS
 ## 6.1. Remove Applications
 Remove applications you installed with apt-get with:
 
