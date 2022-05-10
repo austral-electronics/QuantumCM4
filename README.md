@@ -34,18 +34,21 @@ launch the configuration script :
 ## 3.1 I can't find my IP address
 by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
-### 3.1.1 Use Bonjour Protocol
+### Use Bonjour Protocol
 Install bonjour service on windows : https://support.apple.com/kb/DL999?locale=en_US
 
     ssh quantum@quantum.local   -> Default password=austral
     ifconfig
-### 3.1.2 Use nmap
+
+### Use nmap
 Install nmap : https://nmap.org/download.html
 Launch nmap to scan all DHCP ip addresses
 
     nmap -sn 192.168.100.0/24
 
-## 3.1 
+## 3.2 
+
+## 3.3 
 
 # 4. TEST THE PERIPHERALS    
 ## 4.2 Ethernet
@@ -54,7 +57,7 @@ by default the ip address is static and is 192.168.100.100
 To change IP :
 
     sudo nano /etc/dhcpcd.conf
-
+    
     # Example static IP configuration:
     interface eth0
     static ip_address=192.168.100.100/24
