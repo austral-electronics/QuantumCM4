@@ -134,6 +134,26 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 ## 4.6 Serials
 
 ## 4.7 CANbus
+Verify the configuration :
+
+     ifconfig
+
+You must see can0, can1 and vcan0
+
+    ip -s -d link show can0
+    ip -s -d link show can1
+
+Change baudrate :
+
+    sudo /sbin/ip link set can0 up type can bitrate 250000
+    
+Receive sentences test :
+
+    candump can0
+    
+Transmit sentences test :
+
+    cansend can0 7DF#0201050000000000
 
 ## 4.8 RTC
 To verify the RTC chip response on I2C bus :
@@ -147,10 +167,22 @@ To program the RTC :
     sudo hwclock -D -r
     date
     sudo hwclock -w
-    sudo hwclock
+    sudo hwclock -r
 
 ## 4.8 Logo backlight
 
+To test the LED :
+
+    # Set Led port as output
+    echo "27" > /sys/class/gpio/export
+    echo "out" > /sys/class/gpio/gpio27/direction
+
+    # Led ON 
+    echo "1" > /sys/class/gpio/gpio27/value
+
+    #led OFF
+    echo "0" > /sys/class/gpio/gpio27/value
+    
 # 5. INSTALL THE SDK ON WINDOWS
 ## 4.1 Visual Code
 ## 4.2 C/C++ Cross Compiler
@@ -158,3 +190,14 @@ To program the RTC :
 ## 4.4 Cross Debugging
 ## 4.5 Git
 ## 4.6 Templates
+
+# 6. TUTORIALS
+## 6.1. Remove Applications
+Remove applications you installed with apt-get with:
+
+    sudo apt-get –purge remove APPNAME    (replace APPNAME with the name of the app you want to remove)
+
+To remove possible application orphans:
+
+    sudo apt-get autoremove –purge
+    
