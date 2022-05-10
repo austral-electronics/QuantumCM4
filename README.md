@@ -1,10 +1,14 @@
-![Logo](/images/LogoAustral.png)
-
-# !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!!
-
-
-# 1. QUANTUM CM4 PROCESSOR
 ![QuantumUltima](/images/QuantumUltima.png)
+
+# Quantum CM4 OEM - Rugged Calculator and IOT Gateway Manual
+
+** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
+Last Updated 5th May 2021
+
+### Disclaimers
+*Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this maual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
+
+## Overview
 
 *The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed Node-Red low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments like Marine, Industry, IoT, Drones, Off-Highway vehicles... If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.*
 
@@ -13,6 +17,8 @@ The **Quantum CM4 Processor** is an industrial platform, marinized, miniaturized
 **Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …
 For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture …
+
+## 1. QUANTUM CM4 Hardware
 
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
@@ -243,3 +249,4 @@ To remove possible application orphans:
 
     sudo apt-get autoremove –purge
     
+![Logo](/images/LogoAustral.png)
