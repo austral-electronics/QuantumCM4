@@ -14,7 +14,7 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture â
 
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
-# 2. INSTALL AN OS ON YOUR QUATUM CM4
+# 2. INSTALL DEBIAN ON YOUR QUATUM CM4
 The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.
 ## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4
 Download the image here (300MB) :
@@ -44,7 +44,9 @@ Install nmap : https://nmap.org/download.html
 Launch nmap to scan all DHCP ip addresses
 
     nmap -sn 192.168.100.0/24
-    
+
+## 3.1 
+
 # 4. TEST THE PERIPHERALS    
 ## 4.2 Ethernet
 by default the ip address is static and is 192.168.100.100
@@ -72,7 +74,43 @@ To get the access point status:
 
     iwconfig
 ## 4.4 Samba file server
-    sudo nano 
+
+The default samba setting share the /home/quantum/git directory for development purposes.
+
+We recommend adding a network drive 'Q' on Windows :
+>Address: \\AUSTRAL\quantum  
+>Login: quantum  
+>password: austral
+
+To add or change a share directory:
+ 
+    sudo nano /etc/samba/smb.conf
+    
+Add at the end of smb.conf:
+
+    [myShare]
+    path = /myDirectory
+    writeable = yes
+    create mask = 0700
+    directory mask = 0700
+    public = no 
+
+Allow users to access share folders :
+
+    sudo smbpasswd -a quantum    -> Default password : austral
+
+Restart service after smb.conf modifications :
+
+    sudo systemctl restart smbd
+
+Get samba configuration :
+
+    testparm -s
+    
+The default smb.conf is set for the WORKGROUP domain, to get the windows domain name :
+
+    net config workstation
+
 ## 4.5 Serials
 ## 4.6 CANbus
 ## 4.7 RTC
