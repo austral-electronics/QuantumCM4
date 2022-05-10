@@ -15,7 +15,7 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture â
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
 # 2. INSTALL AN OS ON YOUR QUATUM CM4
-The Quantum OEM Processor is preinstalled with a Debian OS
+The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.
 ## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4
 Download the image here (300MB) :
     https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
