@@ -46,12 +46,20 @@ Launch nmap to scan all DHCP ip addresses
 
     nmap -sn 192.168.100.0/24
 
-## 3.2 
-
-## 3.3 
+## 3.2 I have an SSH error 'ECDSA host key for quantum.local has changed '
+    ssh-keygen -R quantum.local
 
 # 4. TEST THE PERIPHERALS    
-## 4.2 Ethernet
+## 4.1 Get the system configuration
+
+Linux version :
+
+    uname -a
+    Linux quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
+
+## 4.2 Change the system configuration
+
+## 4.3 Ethernet
 by default the ip address is static and is 192.168.100.100
 
 To change IP :
@@ -68,7 +76,7 @@ To use DHCP :
     #interface eth0
     #static ip_address=192.168.100.100/24
 
-## 4.3 Wifi
+## 4.4 Wifi
 To get the wifi IP address:
 
     ipconfig
@@ -76,7 +84,7 @@ To get the wifi IP address:
 To get the access point status:
 
     iwconfig
-## 4.4 Samba file server
+## 4.5 Samba file server
 
 The default samba setting share the /home/quantum/git directory for development purposes.
 
@@ -114,9 +122,9 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 
     net config workstation
 
-## 4.5 Serials
-## 4.6 CANbus
-## 4.7 RTC
+## 4.6 Serials
+## 4.7 CANbus
+## 4.8 RTC
 
 
 
