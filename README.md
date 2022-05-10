@@ -1,5 +1,8 @@
 ![Logo](/images/LogoAustral.png)
 
+# !!!!!!!!!!!! IN REDACTION !!!!!!!!!!!!!!!!!!
+
+
 # 1. QUANTUM CM4 PROCESSOR
 ![QuantumUltima](/images/QuantumUltima.png)
 
