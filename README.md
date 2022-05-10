@@ -30,8 +30,22 @@ launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
 
-# 4. TEST THE PERIPHERALS
-## 4.1 Bonjour Protocol
+# 3. CURRENT ISSUES
+## 3.1 I can't find my IP address
+by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
+
+### 3.1.1 Use Bonjour Protocol
+Install bonjour service on windows : https://support.apple.com/kb/DL999?locale=en_US
+
+    ssh quantum@quantum.local   -> Default password=austral
+    ifconfig
+### 3.1.2 Use nmap
+Install nmap : https://nmap.org/download.html
+Launch nmap to scan all DHCP ip addresses
+
+    nmap -sn 192.168.100.0/24
+    
+# 4. TEST THE PERIPHERALS    
 ## 4.2 Ethernet
 by default the ip address is static and is 192.168.100.100
 
@@ -50,6 +64,13 @@ To use DHCP :
     #static ip_address=192.168.100.100/24
 
 ## 4.3 Wifi
+To get the wifi IP address:
+
+    ipconfig
+    
+To get the access point status:
+
+    iwconfig
 ## 4.4 Samba file server
     sudo nano 
 ## 4.5 Serials
