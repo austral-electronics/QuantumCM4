@@ -6,6 +6,8 @@
 # 1. QUANTUM CM4 PROCESSOR
 ![QuantumUltima](/images/QuantumUltima.png)
 
+*The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed Node-Red low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments like Marine, Industry, IoT, Drones, Off-Highway vehicles... If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.*
+
 The **Quantum CM4 Processor** is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 **Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway â€¦
@@ -16,12 +18,23 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture â
 
 # 2. INSTALL DEBIAN ON YOUR QUATUM CM4
 The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.
+## 2.1 Ready-to-use Debian 11.3 Bullseye Headless image (coming soon)
+
 ## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4
 Download the image here (300MB) :
     https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 ## 2.2 Program the Micro SD-CARD
 ## 2.3 Program the EMMC
-## 2.4 Configure Debian for the Quantum CM4 peripherals
+## 2.4 Prepare Debian 11.3 Bullseye Headless image from scratch
+**Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4:**
+
+Download the image here (300MB) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+
+**Program the Micro SD-CARD or EMMC:**
+
+See above
+
+**Configure the default image for the Quantum CM4 Platform:**
 
     ssh quantum@192.168.100.100
 The default password is : austral
