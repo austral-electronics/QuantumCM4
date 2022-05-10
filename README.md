@@ -57,6 +57,22 @@ Linux version :
     uname -a
     Linux quantum 5.15.32-v8+ #1538 SMP PREEMPT Thu Mar 31 19:40:39 BST 2022 aarch64 GNU/Linux
 
+Partitions :
+
+    cat /etc/fstab
+    
+Disk usage :
+
+    df -h
+
+Processors & Memory usage :
+
+    htop
+
+Processors temperature :
+
+    vcgencmd measure_temp
+
 ## 4.2 Change the system configuration
     sudo raspi-config
     
