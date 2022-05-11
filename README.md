@@ -85,9 +85,9 @@ Operations realized by the script :
   * Grafana (Analytics & monitoring solution)
   * Mosquitto (MQTT broker)
   * GPSD (GNSS Time)
-  * Signal K (Open marine data standard / NMEA1083 / NMEA2000)
-  * ROS / ROS2 (Robotics)
-  * Minicom (Serial terminal)
+  * Signal K (Open marine data standard)
+  * NMEA2000 (Marine CanBus communication - paid stack)
+  * ROS/ROS2 (Robotics)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
