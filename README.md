@@ -26,9 +26,14 @@ It is designed for low latency applications using remote in browser displays and
    [Overview](#overview)
 1. [Hardware](#hardware)
 2. [Operating system](#os)
-3. [Install Debian](#debian)
+3. [Install Debian](#debian)  
+3.1. [Download a Debian image](#download_debian)  
+3.2. [Program the Micro SD-CARD](#prog_sd)  
+3.3. [Program the EMMC](#prog_emmc)  
+3.4. [Create a Debian image from scratch](#debian_from_scatch)  
+3.5. [Configuration current issues](#config_issues)  
 4. [Test the peripherals](#peripherals)
-5. [Applications](#applications)
+6. [Applications](#applications)
 
 ## 1. Hardware <a name="hardware"></a>
 
@@ -48,13 +53,13 @@ The choice of the version depends on the deployment date of your system.
 * Debian 10 “Buster”      July, 2022 to June, 2024
 * Debian 11 “Bullseye”    July, 2024 to June, 2026
 
-### 3.1 Download a Debian image
+### 3.1 Download a Debian image <a name="download_debian"></a>
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, Ready-to-use (Rolling Release) : (coming soon)
 * Debian 10 "Buster" Headless PREEMPT-RT, Ready-to-use (LTS) : (coming soon)
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 * Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/
 
-### 3.2 Program the Micro SD-CARD
+### 3.2 Program the Micro SD-CARD  <a name="prog_sd"></a>
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
 * [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Insert a Micro SD-Card in an USB3.0 Card Reader
@@ -64,7 +69,7 @@ The choice of the version depends on the deployment date of your system.
 * Click on the gear icon to configure to the Advanced Options  
 
 ![Advanced Options](/images/AdvancedOptions.png)
-### 3.3 Program the EMMC
+### 3.3 Program the EMMC <a name="prog_emmc"></a>
 Coming soon
 ### 3.4 Create a Debian image from scratch
 **Get Debian an image :**
