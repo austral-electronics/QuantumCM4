@@ -24,7 +24,9 @@ It is designed for low latency applications using remote in browser displays and
 
 ## 1. Quantum CM4 Hardware
 
-**Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
+**Download a PDF Hardware specifications and installation** : [Here](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
+
+![QuantumCM4spec](/images/QuantumCM4spec.png)
 
 ## 2. Operating system
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
@@ -55,7 +57,7 @@ The choice of the version depends on the deployment date of your system.
 
 ![Advanced Options](/images/AdvancedOptions.png)
 ### 3.3 Program the EMMC
-Com
+Coming soon
 ### 3.4 Create a Debian image from scratch
 **Get Debian an image :**
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
