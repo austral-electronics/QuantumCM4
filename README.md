@@ -22,11 +22,11 @@ It is designed for low latency applications using remote in browser displays and
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
-## 1. Quantum CM4 Hardware
+## 1. Hardware
 
 **Download a PDF Hardware specifications and installation** : [Here](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
-![QuantumCM4spec](/images/QuantumCM4spec.png)
+![QuantumCM4spec](/images/QuantumCM4specLR.png)
 
 ## 2. Operating system
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
