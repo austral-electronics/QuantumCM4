@@ -74,7 +74,7 @@ Operations realized by the script :
 * Configure Ethernet & Wifi
 * Install peripherals libraries and configure them (I2C, SPI, RTC, CANbus, Serials, GPIO...)
 * Install and configure Samba
-* Configure Avahi (Bonjour/Zeroconf)
+* Configure Avahi (Bonjour/Zeroconf) for marine MFD Displays
 * On request, install and configure for real-time usual services or applications in embedded systems:
   * C/C++
   * [Qt5](https://www.qt.io/)
@@ -86,21 +86,21 @@ Operations realized by the script :
   * [Mosquitto](https://mosquitto.org/) (MQTT broker)
   * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
   * [Signal K](https://signalk.org/) (Open marine data standard)
+  * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
   * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
-  * [ROS2](https://docs.ros.org/en/foxy/index.html)(Robotics)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
-by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
+By default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
-** Use Bonjour Protocol :**
+* Use bonjour Protocol :
 
 Install bonjour service on windows : https://support.apple.com/kb/DL999?locale=en_US
 
     ssh quantum@quantum.local   -> Default password=austral
     ifconfig
 
-** Use nmap :**
+* Use nmap :
 
 Install nmap : https://nmap.org/download.html
 Launch nmap to scan all DHCP ip addresses
@@ -281,7 +281,14 @@ To remove possible application orphans:
 
     sudo apt-get autoremove –purge
 
+### 6.1. MINICOM
+Minicom is a simple terminal usefull to scan serials
+
+    sudo apt update -y
+    sudo apt install minicom -y
+    sudo minicom -D /dev/serial0
+
 ## Disclaimers
-*Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this maual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
+*Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
   
 ![Logo](/images/LogoAustral.png)
