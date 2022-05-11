@@ -233,7 +233,7 @@ Transmit sentences test :
 
     cansend can0 7DF#0201050000000000
 
-### 4.8 RTC
+### 4.8 Real Time Clock
 To verify the RTC chip response on I2C bus :
  
     sudo i2cdetect -y 1
@@ -281,7 +281,7 @@ To remove possible application orphans:
 
     sudo apt-get autoremove –purge
 
-### 6.1. MINICOM
+### 6.1. Minicom
 Minicom is a simple terminal usefull to scan serials
 
     sudo apt update -y
