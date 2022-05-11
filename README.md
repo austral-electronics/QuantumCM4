@@ -32,8 +32,21 @@ It is designed for low latency applications using remote in browser displays and
 3.3. [Program the EMMC](#prog_emmc)  
 3.4. [Create a Debian image from scratch](#debian_from_scatch)  
 3.5. [Configuration current issues](#config_issues)  
-4. [Test the peripherals](#peripherals)
-6. [Applications](#applications)
+4. [Test the peripherals](#peripherals)  
+4.1. [Get the system configuration](#get_conf)  
+4.2. [Change the system configuration](#change_conf)  
+4.3. [Ethernet](#eth)  
+4.4. [Wifi](#wifi)  
+4.5. [Samba file server](#samba)  
+4.6. [Serials](#serials)  
+4.7. [CANbus](#canbus)  
+4.8. [Real Time Clock](#rtc)  
+4.9. [Logo backlight](#led)  
+4.10. [Bluetooth](#ble)  
+5. [Applications](#applications)  
+5.1. [Remove Applications](#rem_app)  
+5.2. [Minicom](#minicom)  
+[Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
 
@@ -53,13 +66,13 @@ The choice of the version depends on the deployment date of your system.
 * Debian 10 “Buster”      July, 2022 to June, 2024
 * Debian 11 “Bullseye”    July, 2024 to June, 2026
 
-### 3.1 Download a Debian image <a name="download_debian"></a>
+### 3.1. Download a Debian image <a name="download_debian"></a>
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, Ready-to-use (Rolling Release) : (coming soon)
 * Debian 10 "Buster" Headless PREEMPT-RT, Ready-to-use (LTS) : (coming soon)
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 * Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/
 
-### 3.2 Program the Micro SD-CARD  <a name="prog_sd"></a>
+### 3.2. Program the Micro SD-CARD  <a name="prog_sd"></a>
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
 * [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Insert a Micro SD-Card in an USB3.0 Card Reader
@@ -69,9 +82,9 @@ The choice of the version depends on the deployment date of your system.
 * Click on the gear icon to configure to the Advanced Options  
 
 ![Advanced Options](/images/AdvancedOptions.png)
-### 3.3 Program the EMMC <a name="prog_emmc"></a>
+### 3.3. Program the EMMC <a name="prog_emmc"></a>
 Coming soon
-### 3.4 Create a Debian image from scratch
+### 3.4. Create a Debian image from scratch <a name="debian_from_scatch"></a>
 **Get Debian an image :**
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
 * Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/
@@ -109,7 +122,7 @@ Operations realized by the script :
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
   * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
 
-### 3.5 Configuration current issues
+### 3.5. Configuration current issues <a name="config_issues"></a>
 #### I can't find my IP address
 By default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
@@ -131,7 +144,7 @@ Launch nmap to scan all DHCP ip addresses
     ssh-keygen -R quantum.local
 
 ## 4. TEST THE PERIPHERALS <a name="peripherals"></a>   
-### 4.1 Get the system configuration
+### 4.1. Get the system configuration <a name="get_conf"></a>
 
 Linux :
 
@@ -155,10 +168,10 @@ Cores :
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq -> Min Clock
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq -> Max Clock
 
-### 4.2 Change the system configuration
+### 4.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
     
-### 4.3 Ethernet
+### 4.3. Ethernet <a name="eth"></a>
 by default the ip address is static and is 192.168.100.100
 
 To change IP :
@@ -175,7 +188,7 @@ To use DHCP :
     #interface eth0
     #static ip_address=192.168.100.100/24
 
-### 4.4 Wifi
+### 4.4. Wifi <a name="wifi"></a>
 To get the wifi IP address:
 
     ipconfig
@@ -183,7 +196,7 @@ To get the wifi IP address:
 To get the access point status:
 
     iwconfig
-### 4.5 Samba file server
+### 4.5. Samba file server <a name="samba"></a>
 
 The default samba setting share the /home/quantum/git directory for development purposes.
 
@@ -229,9 +242,9 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 
     net config workstation
 
-### 4.6 Serials
+### 4.6. Serials <a name="serials"></a>
 
-### 4.7 CANbus
+### 4.7. CANbus <a name="canbus"></a>
 Verify the configuration :
 
      ifconfig
@@ -253,7 +266,7 @@ Transmit sentences test :
 
     cansend can0 7DF#0201050000000000
 
-### 4.8 Real Time Clock
+### 4.8. Real Time Clock <a name="rtc"></a>
 To verify the RTC chip response on I2C bus :
  
     sudo i2cdetect -y 1
@@ -267,7 +280,7 @@ To program the RTC :
     sudo hwclock -w
     sudo hwclock -r
 
-### 4.8 Logo backlight
+### 4.9. Logo backlight <a name="led"></a>
 
 To test the LED :
 
@@ -281,7 +294,7 @@ To test the LED :
     #led OFF
     echo "0" > /sys/class/gpio/gpio27/value
     
-### 4.4 Bluetooth
+### 4.10. Bluetooth <a name="ble"></a>
 
 coming soon
 <!---    
@@ -295,8 +308,8 @@ coming soon
 ### 4.7 Templates
 -->
 
-## 6. Applications <a name="applications"></a> 
-### 6.1. Remove Applications
+## 5. Applications <a name="applications"></a> 
+### 5.1. Remove Applications <a name="rem_app"></a>
 Remove applications you installed with apt-get with:
 
     sudo apt-get –purge remove APPNAME    (replace APPNAME with the name of the app you want to remove)
@@ -305,14 +318,14 @@ To remove possible application orphans:
 
     sudo apt-get autoremove –purge
 
-### 6.1. Minicom
+### 5.2. Minicom <a name="minicom"></a>
 Minicom is a simple terminal usefull to scan serials
 
     sudo apt update -y
     sudo apt install minicom -y
     sudo minicom -D /dev/serial0
 
-## Disclaimers
+## Disclaimers <a name="disclamers"></a>
 *Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
   
 ![Logo](/images/LogoAustral.png)
