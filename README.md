@@ -1,7 +1,7 @@
 *Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/)*
 ![QuantumUltima](/images/QuantumUltima.png)
 
-# Quantum CM4 OEM - Rugged Calculator and IOT Gateway Manual
+# Quantum CM4 OEM - Rugged Calculator & IOT Gateway
 
 Last Updated 5th May 2021
 
