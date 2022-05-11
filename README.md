@@ -1,3 +1,4 @@
+*Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-elec.com/)*
 ![QuantumUltima](/images/QuantumUltima.png)
 
 # Quantum CM4 OEM - Rugged Calculator and IOT Gateway Manual
@@ -6,7 +7,7 @@ Last Updated 5th May 2021
 
 ## Overview
 
-*The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed Node-Red low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments like Marine, Industry, IoT, Drones, Off-Highway vehicles... If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.*
+*The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments like Marine, Industry, IoT, Drones, Off-Highway vehicles... If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.*
 
 The **Quantum CM4 Processor** is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
@@ -149,7 +150,7 @@ To get the access point status:
 The default samba setting share the /home/quantum/git directory for development purposes.
 
 We recommend adding a network drive 'Q' on Windows :
->Address: \\AUSTRAL\quantum  
+>Address: \\\\AUSTRAL\quantum  
 >Login: quantum  
 >password: austral
 
@@ -166,7 +167,7 @@ Add at the end of smb.conf:
     directory mask = 0700
     public = no 
 
-Allow users to access share folders :
+Allow users to access share folders or change the default password:
 
     sudo smbpasswd -a quantum    -> Default password : austral
 
