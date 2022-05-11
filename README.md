@@ -31,19 +31,17 @@ We recommend the use of a Debian distribution if your system is not deployed in 
 The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
 Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years.  
 The choice of the version depends on the deployment date of your system.  
-[Debian (future) LTS Releases, Supported by security and release teams](https://wiki.debian.org/fr/LTS)  
+[Debian (future) LTS Releases, Supported by security and release teams:](https://wiki.debian.org/fr/LTS)  
 * Debian 10 “Buster”      July, 2022 to June, 2024
 * Debian 11 “Bullseye”    July, 2024 to June, 2026
 
-## 3.1 Ready-to-use Debian image
-* Debian 10 "Buster" Headless image (coming soon)
-* Debian 11.3 "Bullseye" Headless image (coming soon)
+### 3.1 Download a Debian image
+* Debian 11.3 "Bullseye" Headless PREEMPT-RT, Ready-to-use (Rolling Release) : (coming soon)
+* Debian 10 "Buster" Headless PREEMPT-RT, Ready-to-use (LTS) : (coming soon)
+* Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+* Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/
 
-## 3.2 Get Debian Headless PREEMPT-RT image (This images needs to be configured for the Quantum CM4)
-* Download Debian 10 "Buster" (LTS) : 
-* Download Debian 11.3 "Bullseye" (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
-
-## 2.2 Program the Micro SD-CARD
+### 3.2 Program the Micro SD-CARD
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
 * [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Insert a Micro SD-Card in an USB3.0 Card Reader
@@ -53,11 +51,11 @@ The choice of the version depends on the deployment date of your system.
 * Click on the gear icon to configure to the Advanced Options  
 
 ![Advanced Options](/images/AdvancedOptions.png)
-## 2.3 Program the EMMC
-## 2.4 Prepare Debian 11.3 Bullseye Headless image from scratch
-**Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4:**
-
-Download the image here (300MB) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+### 3.3 Program the EMMC
+### 3.4 Create a Debian image from scratch
+**Get Debian an image :**
+* Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+* Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/
 
 **Program the Micro SD-CARD or EMMC:**
 
@@ -72,8 +70,8 @@ launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
 
-# 3. CURRENT ISSUES
-## 3.1 I can't find my IP address
+### 3.5 Configuration current issues
+#### I can't find my IP address
 by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
 ** Use Bonjour Protocol :**
@@ -90,11 +88,11 @@ Launch nmap to scan all DHCP ip addresses
 
     nmap -sn 192.168.100.0/24
 
-## 3.2 I have an SSH error 'ECDSA host key for quantum.local has changed '
+#### I have an SSH error 'ECDSA host key for quantum.local has changed '
     ssh-keygen -R quantum.local
 
-# 4. TEST THE PERIPHERALS    
-## 4.1 Get the system configuration
+## 4. TEST THE PERIPHERALS    
+### 4.1 Get the system configuration
 
 Linux :
 
@@ -118,10 +116,10 @@ Cores :
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq -> Min Clock
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq -> Max Clock
 
-## 4.2 Change the system configuration
+### 4.2 Change the system configuration
     sudo raspi-config
     
-## 4.3 Ethernet
+### 4.3 Ethernet
 by default the ip address is static and is 192.168.100.100
 
 To change IP :
@@ -138,7 +136,7 @@ To use DHCP :
     #interface eth0
     #static ip_address=192.168.100.100/24
 
-## 4.4 Wifi
+### 4.4 Wifi
 To get the wifi IP address:
 
     ipconfig
@@ -146,7 +144,7 @@ To get the wifi IP address:
 To get the access point status:
 
     iwconfig
-## 4.5 Samba file server
+### 4.5 Samba file server
 
 The default samba setting share the /home/quantum/git directory for development purposes.
 
@@ -192,9 +190,9 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 
     net config workstation
 
-## 4.6 Serials
+### 4.6 Serials
 
-## 4.7 CANbus
+### 4.7 CANbus
 Verify the configuration :
 
      ifconfig
@@ -216,7 +214,7 @@ Transmit sentences test :
 
     cansend can0 7DF#0201050000000000
 
-## 4.8 RTC
+### 4.8 RTC
 To verify the RTC chip response on I2C bus :
  
     sudo i2cdetect -y 1
@@ -230,7 +228,7 @@ To program the RTC :
     sudo hwclock -w
     sudo hwclock -r
 
-## 4.8 Logo backlight
+### 4.8 Logo backlight
 
 To test the LED :
 
@@ -244,17 +242,17 @@ To test the LED :
     #led OFF
     echo "0" > /sys/class/gpio/gpio27/value
     
-# 5. INSTALL THE SDK ON WINDOWS
-## 4.1 Visual Code
-## 4.2 C/C++ Cross Compiler
-## 4.3 Qt
-## 4.4 Python
-## 4.5 Cross Debugging
-## 4.6 Git
-## 4.7 Templates
+## 5. INSTALL THE SDK ON WINDOWS
+### 4.1 Visual Code
+### 4.2 C/C++ Cross Compiler
+### 4.3 Qt
+### 4.4 Python
+### 4.5 Cross Debugging
+### 4.6 Git
+### 4.7 Templates
 
-# 6. APPLICATIONS
-## 6.1. Remove Applications
+## 6. APPLICATIONS
+### 6.1. Remove Applications
 Remove applications you installed with apt-get with:
 
     sudo apt-get –purge remove APPNAME    (replace APPNAME with the name of the app you want to remove)
