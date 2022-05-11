@@ -9,7 +9,7 @@
     
 </div>
 
-## Overview
+## Overview <a name="overview"></a>
 
 The **Quantum CM4 makes it as easy as possible to build your next smart project** with the support of the largest developer community, and if it is suitable [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red), a low code visual programming with a huge [node](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) library. The Quantum CM4 is a **Raspberry PI 4 software compatible** and **real-time** platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
@@ -22,17 +22,25 @@ It is designed for low latency applications using remote in browser displays and
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
-## 1. Hardware
+## Table of contents
+   [Overview](#overview)
+1. [Hardware](#hardware)
+2. [Operating system](#os)
+3. [Install Debian](#debian)
+4. [Test the peripherals](#peripherals)
+5. [Applications](#applications)
+
+## 1. Hardware <a name="hardware"></a>
 
 **Download a PDF Hardware specifications and installation** : [Here](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
 ![QuantumCM4spec](/images/QuantumCM4specLR.png)
 
-## 2. Operating system
+## 2. Operating system <a name="os"></a>
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
 We recommend the use of a Debian distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk](https://redpesk.bzh/welcome/home), Automotive Grade Linux (AGL), Ubuntu Server, Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
-## 3. Install Debian
+## 3. Install Debian <a name="debian"></a>
 The Quantum CM4 Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
 Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years.  
 The choice of the version depends on the deployment date of your system.  
@@ -117,7 +125,7 @@ Launch nmap to scan all DHCP ip addresses
 #### I have an SSH error 'ECDSA host key for quantum.local has changed '
     ssh-keygen -R quantum.local
 
-## 4. TEST THE PERIPHERALS    
+## 4. TEST THE PERIPHERALS <a name="peripherals"></a>   
 ### 4.1 Get the system configuration
 
 Linux :
@@ -282,7 +290,7 @@ coming soon
 ### 4.7 Templates
 -->
 
-## 6. Applications
+## 6. Applications <a name="applications"></a> 
 ### 6.1. Remove Applications
 Remove applications you installed with apt-get with:
 
