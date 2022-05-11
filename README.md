@@ -19,17 +19,30 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture �
 
 ** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
 
-## 1. QUANTUM CM4 Hardware
+## 1. Quantum CM4 Hardware
 
 **Hardware specifications and installation** : [link](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_02_Brief.pdf)
 
-# 2. INSTALL DEBIAN ON YOUR QUATUM CM4
-The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.
-## 2.1 Ready-to-use Debian 11.3 Bullseye Headless image (coming soon)
+## 2. Operating system
+Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
+We recommend the use of a Debian distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, Austral Electronics in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk](https://redpesk.bzh/welcome/home), Automotive Grade Linux (AGL), Ubuntu Server, Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
-## 2.1 Get Debian 11.3 Bullyeye Headless PREEMPT-RT image for Quantum CM4
-Download the image here (300MB) :
-    https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+## 3. Install Debian
+The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
+Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years.  
+The choice of the version depends on the deployment date of your system.  
+[Debian (future) LTS Releases, Supported by security and release teams](https://wiki.debian.org/fr/LTS)  
+* Debian 10 “Buster”      July, 2022 to June, 2024
+* Debian 11 “Bullseye”    July, 2024 to June, 2026
+
+## 3.1 Ready-to-use Debian image
+* Debian 10 "Buster" Headless image (coming soon)
+* Debian 11.3 "Bullseye" Headless image (coming soon)
+
+## 3.2 Get Debian Headless PREEMPT-RT image (This images needs to be configured for the Quantum CM4)
+* Download Debian 10 "Buster" (LTS) : 
+* Download Debian 11.3 "Bullseye" (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
+
 ## 2.2 Program the Micro SD-CARD
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
 * [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
