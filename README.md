@@ -76,7 +76,7 @@ Operations realized by the script :
 * On request, install and configure applications:
   * Qt5 or Qt6
   * Python3
-  * Node-JS (Server side Javascript)
+  * Node.JS (Server side Javascript)
   * Node-Red (Low Code programming)
   * InfluxDB (Time Series Database)
   * Grafana (Analytics & monitoring solution)
