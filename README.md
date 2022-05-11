@@ -3,7 +3,7 @@
 
 # Quantum CM4 OEM - Rugged Calculator & IOT Gateway
 
-Last Updated 5th May 2021
+Your data here, there, or anywhere - Last Updated 5th May 2021
 
 ## Overview
 
@@ -82,12 +82,12 @@ Operations realized by the script :
   * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
   * [Node-Red](https://nodered.org/) (Low Code programming)
   * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
-  * [Grafana](https://grafana.com/) (Operational dashboards for your data here, there, or anywhere)
+  * [Grafana](https://grafana.com/) (Operational dashboards)
   * [Mosquitto](https://mosquitto.org/) (MQTT broker)
-  * GPSD (GNSS Time)
+  * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
   * [Signal K](https://signalk.org/) (Open marine data standard)
   * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
-  * [ROS2] (https://docs.ros.org/en/foxy/index.html)(Robotics)
+  * [ROS2](https://docs.ros.org/en/foxy/index.html)(Robotics)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
