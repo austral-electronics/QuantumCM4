@@ -68,6 +68,21 @@ launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
 
+Operations realized :  
+* Update and upgrade Debian
+* Install peripherals libraries and configure them (I2C, SPI, RTC, CANbus, Serials, GPIO...)
+* Install and configure Samba
+* Configure Avahi/Bonjour
+* On request, install and configure applications:
+  * Qt5/Qt6
+  * Python3
+  * Node-Red (Low Code programming)
+  * Node-JS (Server side Javascript)
+  * InfluxDB (Time Series Database)
+  * Grafana (Analytics & monitoring solution)
+  * Mosquitto (MQTT broker)
+  * GPSD (GNSS Time)
+
 ### 3.5 Configuration current issues
 #### I can't find my IP address
 by default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
