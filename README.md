@@ -11,10 +11,10 @@ The **Quantum CM4 makes it as easy as possible to build your next smart project*
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
-**Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
-It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …
+***Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
+It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
 
-**Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …
+***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
 ** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
 
@@ -77,17 +77,17 @@ Operations realized by the script :
 * Configure Avahi (Bonjour/Zeroconf)
 * On request, install and configure for real-time usual services or applications in embedded systems:
   * C/C++
-  * Qt5
-  * Python3
-  * Node.JS
-  * Node-Red (Low Code programming)
-  * InfluxDB (Time Series Database)
-  * Grafana (Analytics & monitoring solution)
-  * Mosquitto (MQTT broker)
+  * [Qt5](https://www.qt.io/)
+  * [Python3](https://www.python.org/about/)
+  * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
+  * [Node-Red](https://nodered.org/) (Low Code programming)
+  * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
+  * [Grafana](https://grafana.com/) (Operational dashboards for your data here, there, or anywhere)
+  * [Mosquitto](https://mosquitto.org/) (MQTT broker)
   * GPSD (GNSS Time)
-  * Signal K (Open marine data standard)
-  * NMEA2000 (Marine CanBus communication - paid stack)
-  * ROS/ROS2 (Robotics)
+  * [Signal K](https://signalk.org/) (Open marine data standard)
+  * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
+  * [ROS2] (https://docs.ros.org/en/foxy/index.html)(Robotics)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
