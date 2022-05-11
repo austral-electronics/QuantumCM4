@@ -1,9 +1,13 @@
+<div align="center">
+    
 *Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/)*
 ![QuantumUltima](/images/QuantumUltima.png)
+    
+*Your data here, there, or anywhere*  
 
-# Quantum CM4 OEM - Rugged Calculator & IOT Gateway
-
-Your data here, there, or anywhere                - Last Updated 5th May 2021
+# Quantum CM4 - Rugged Calculator & IOT Gateway !!! NEW 2022 !!!
+    
+</div>
 
 ## Overview
 
@@ -11,12 +15,12 @@ The **Quantum CM4 makes it as easy as possible to build your next smart project*
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
+*** connectivity** : Ethernet (MODBUS, MQTT, Websocket, ZMQ, UDP, TCP), WIFI, Bluetooth, CANbus (NMEA2000, J1939, CANopen), Serials (RS232, RS485, RS422, MODBUS, NMEA0183...)*
+
 ***Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Data collection, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
-
-** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
 
 ## 1. Quantum CM4 Hardware
 
@@ -51,6 +55,7 @@ The choice of the version depends on the deployment date of your system.
 
 ![Advanced Options](/images/AdvancedOptions.png)
 ### 3.3 Program the EMMC
+Com
 ### 3.4 Create a Debian image from scratch
 **Get Debian an image :**
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
