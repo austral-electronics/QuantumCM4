@@ -267,6 +267,10 @@ To test the LED :
 
     #led OFF
     echo "0" > /sys/class/gpio/gpio27/value
+    
+### 4.4 Bluetooth
+
+coming soon
 <!---    
 ## 5. INSTALL THE SDK ON WINDOWS
 ### 4.1 Visual Code
