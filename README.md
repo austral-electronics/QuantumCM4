@@ -33,7 +33,7 @@ Quantum CM4 is a headless product, it is designed to have its man-machine interf
 We recommend the use of a Debian distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk](https://redpesk.bzh/welcome/home), Automotive Grade Linux (AGL), Ubuntu Server, Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
 ## 3. Install Debian
-The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
+The Quantum CM4 Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
 Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years.  
 The choice of the version depends on the deployment date of your system.  
 [Debian (future) LTS Releases, Supported by security and release teams:](https://wiki.debian.org/fr/LTS)  
