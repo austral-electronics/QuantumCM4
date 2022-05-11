@@ -75,7 +75,7 @@ Operations realized by the script :
 * Install peripherals libraries and configure them (I2C, SPI, RTC, CANbus, Serials, GPIO...)
 * Install and configure Samba
 * Configure Avahi (Bonjour/Zeroconf)
-* On request, install and configure for real-time services or applications:
+* On request, install and configure for real-time usual services or applications in embedded systems:
   * C/C++
   * Qt5
   * Python3
