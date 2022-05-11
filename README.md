@@ -7,7 +7,7 @@ Last Updated 5th May 2021
 
 ## Overview
 
-The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
+The **Quantum CM4 makes it as easy as possible to build your next smart project** with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible** and **real-time** platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
