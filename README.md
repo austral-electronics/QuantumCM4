@@ -15,7 +15,7 @@ The **Quantum CM4 makes it as easy as possible to build your next smart project*
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
-*** connectivity** : Ethernet (MODBUS, MQTT, Websocket, ZMQ, UDP, TCP), WIFI, Bluetooth, CANbus (NMEA2000, J1939, CANopen), Serials (RS232, RS485, RS422, MODBUS, NMEA0183...)*
+***Connectivity** : WIFI, Bluetooth, Ethernet (Modbus, Profinet, ETherNet/IP, MQTT, Websocket, ZMQ, UDP, TCP...), CANbus (NMEA2000, J1939, CANopen...), Serials (RS232, RS485, RS422, MODBUS, NMEA0183...). **Optional** : LoRaWAN, SigFox, 4G/LTE, NB-IoT, SpaceX Swarm, Iridium SBD... (Almost all Mini PCIe expansions boards)*
 
 ***Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Data collection, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
