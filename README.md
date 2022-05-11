@@ -13,7 +13,8 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized a
 
 **Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …
-For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture …
+
+**Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …
 
 ** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
 
@@ -70,10 +71,11 @@ launch the configuration script :
 
 Operations realized by the script :  
 * Update and upgrade Debian
+* Configure Ethernet & Wifi
 * Install peripherals libraries and configure them (I2C, SPI, RTC, CANbus, Serials, GPIO...)
 * Install and configure Samba
 * Configure Avahi (Bonjour/Zeroconf)
-* On request, install and configure for real-time services and applications:
+* On request, install and configure for real-time services or applications:
   * C/C++
   * Qt5
   * Python3
@@ -85,6 +87,7 @@ Operations realized by the script :
   * GPSD (GNSS Time)
   * Signal K (Open marine data standard / NMEA1083 / NMEA2000)
   * ROS / ROS2 (Robotics)
+  * Minicom (Serial terminal)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
