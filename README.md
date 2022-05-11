@@ -11,14 +11,14 @@
 
 ## Overview
 
-The **Quantum CM4 makes it as easy as possible to build your next smart project** with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible** and **real-time** platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
+The **Quantum CM4 makes it as easy as possible to build your next smart project** with the support of the largest developer community, and if it is suitable [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming with a huge [node](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) library. The Quantum CM4 is a **Raspberry PI 4 software compatible** and **real-time** platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 ***Connectivity** : WIFI, Bluetooth, BLE, Ethernet (Modbus, Profinet, ETherNet/IP, MQTT, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, MODBUS, NMEA0183...). **Optional long range wireless** : LoRaWAN, SigFox, Zigbee, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... (Almost all Mini PCIe expansions boards, [Contact us](http://austral-eng.com/contact/))*
 
 ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
-It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Data collection, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
+It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors,actuators and PLCs, Data collection, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
