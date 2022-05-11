@@ -73,15 +73,18 @@ Operations realized by the script :
 * Install peripherals libraries and configure them (I2C, SPI, RTC, CANbus, Serials, GPIO...)
 * Install and configure Samba
 * Configure Avahi (Bonjour/Zeroconf)
-* On request, install and configure applications:
-  * Qt5 or Qt6
+* On request, install and configure for real-time services and applications:
+  * C/C++
+  * Qt5
   * Python3
-  * Node.JS (Server side Javascript)
+  * Node.JS
   * Node-Red (Low Code programming)
   * InfluxDB (Time Series Database)
   * Grafana (Analytics & monitoring solution)
   * Mosquitto (MQTT broker)
   * GPSD (GNSS Time)
+  * Signal K (Open marine data standard / NMEA1083 / NMEA2000)
+  * ROS / ROS2 (Robotics)
 
 ### 3.5 Configuration current issues
 #### I can't find my IP address
