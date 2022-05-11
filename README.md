@@ -23,7 +23,7 @@ It is designed for low latency applications using remote in browser displays and
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
 ## Table of contents
-   [Overview](#overview)
+[Overview](#overview)
 1. [Hardware](#hardware)
 2. [Operating system](#os)
 3. [Install Debian](#debian)  
@@ -45,8 +45,8 @@ It is designed for low latency applications using remote in browser displays and
 4.10. [Bluetooth](#ble)  
 5. [Applications](#applications)  
 5.1. [Remove Applications](#rem_app)  
-5.2. [Minicom](#minicom)  
-[Disclaimers](#disclamers)
+5.2. [Minicom](#minicom)
+6.   [Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
 
