@@ -1,4 +1,4 @@
-*Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-elec.com/)*
+*Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/)*
 ![QuantumUltima](/images/QuantumUltima.png)
 
 # Quantum CM4 OEM - Rugged Calculator and IOT Gateway Manual
@@ -7,16 +7,13 @@ Last Updated 5th May 2021
 
 ## Overview
 
-*The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments like Marine, Industry, IoT, Drones, Off-Highway vehicles... If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.*
+The **Quantum CM4** makes it as easy as possible to build your next smart project with the support of the largest developer community, and if needed [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red) low code visual programming. The Quantum CM4 is a **Raspberry PI 4 software compatible**, rugged, miniaturized, low power, real-time platform with browser-based remote displays and operating in harsh environments. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
-The **Quantum CM4 Processor** is an industrial platform, marinized, miniaturized and low power consumtion. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
+The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Indutrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 **Applications** : The Quantum OEM Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors and actuators, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …
 For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture …
-
-### Disclaimers
-*Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this maual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
 
 ** !!!!!!!!!!!! NEW PRODUCT - THIS WIKI IS IN REDACTION !!!!!!!!!!!!!!!!!! **
 
@@ -26,7 +23,7 @@ For the sectors of Marine, Industry, Drones, Off-Highway Vehicles, Agriculture �
 
 ## 2. Operating system
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
-We recommend the use of a Debian distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, Austral Electronics in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk](https://redpesk.bzh/welcome/home), Automotive Grade Linux (AGL), Ubuntu Server, Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
+We recommend the use of a Debian distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk](https://redpesk.bzh/welcome/home), Automotive Grade Linux (AGL), Ubuntu Server, Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
 ## 3. Install Debian
 The Quantum OEM Processor is preinstalled with a Debian OS. You can reinstall debian from scratch by following this procedure.  
@@ -242,7 +239,7 @@ To test the LED :
 
     #led OFF
     echo "0" > /sys/class/gpio/gpio27/value
-    
+<!---    
 ## 5. INSTALL THE SDK ON WINDOWS
 ### 4.1 Visual Code
 ### 4.2 C/C++ Cross Compiler
@@ -251,8 +248,9 @@ To test the LED :
 ### 4.5 Cross Debugging
 ### 4.6 Git
 ### 4.7 Templates
+-->
 
-## 6. APPLICATIONS
+## 6. Applications
 ### 6.1. Remove Applications
 Remove applications you installed with apt-get with:
 
@@ -261,5 +259,8 @@ Remove applications you installed with apt-get with:
 To remove possible application orphans:
 
     sudo apt-get autoremove –purge
-    
+
+## Disclaimers
+*Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this maual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
+  
 ![Logo](/images/LogoAustral.png)
