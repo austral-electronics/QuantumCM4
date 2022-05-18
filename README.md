@@ -121,7 +121,8 @@ Operations realized by the script :
 
 **Shrink and backup the image**
 
-Backup the uSD-Card with [win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download)
+Backup the uSD-Card with [win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download) and a USB-uSD Interface.
+In 'Device' select the partition /boot -> G: Then 'Read'
 
 [Shrink](https://github.com/Drewsif/PiShrink) the image (that will then resize to the max size of the SD card on boot)
 
