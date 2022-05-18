@@ -270,6 +270,10 @@ You must see can0, can1 and vcan0
     ip -s -d link show can0
     ip -s -d link show can1
 
+If not, check for a hardware problem
+
+    dmesg | grep spi
+
 Change baudrate :
 
     sudo /sbin/ip link set can0 up type can bitrate 250000
