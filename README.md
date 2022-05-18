@@ -121,7 +121,9 @@ Operations realized by the script :
 
 **Shrink and backup the image**
 
-[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
+Backup the uSD-Card with [win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download)
+
+[Shrink](https://github.com/Drewsif/PiShrink) the image (that will then resize to the max size of the SD card on boot)
 
 Installation (Linux machine / Win10/11 WSL2 or virtual box):
 
