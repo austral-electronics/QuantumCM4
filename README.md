@@ -119,9 +119,9 @@ Operations realized by the script :
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
   * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
 
-**Shrink and backup the image**
+**Deployment : Shrink and backup the image:**
 
-Backup the uSD-Card with [win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download) and a USB-uSD Interface.
+Read the uSD-Card with [win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/files/latest/download) and a USB-uSD Interface.
 In 'Device' select the partition /boot -> G: Then 'Read'
 
 [Shrink](https://github.com/Drewsif/PiShrink) the image (that will then resize to the max size of the SD card on boot)
@@ -135,6 +135,8 @@ Installation (Linux machine / Win10/11 WSL2 or virtual box):
 Usage :
 
     sudo pishrink.sh xxxx.img
+    
+You can backup / share this compressed image.
 
 ### 3.5. Configuration current issues <a name="config_issues"></a>
 #### I can't find my IP address
