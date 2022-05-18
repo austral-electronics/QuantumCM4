@@ -119,6 +119,20 @@ Operations realized by the script :
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
   * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
 
+**Shrink and backup the image**
+
+[PiShrink](https://github.com/Drewsif/PiShrink) is a bash script that automatically shrink a pi image that will then resize to the max size of the SD card on boot.
+
+Installation (Linux machine / Win10/11 WSL2 or virtual box):
+
+    wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
+    chmod +x pishrink.sh
+    sudo mv pishrink.sh /usr/local/bin
+
+Usage :
+
+    sudo pishrink.sh xxxx.img
+
 ### 3.5. Configuration current issues <a name="config_issues"></a>
 #### I can't find my IP address
 By default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
