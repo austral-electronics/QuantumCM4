@@ -1,0 +1,23 @@
+# interfaces(5) file used by ifup(8) and ifdown(8)
+# Include files from /etc/network/interfaces.d:
+source /etc/network/interfaces.d/*
+
+#physical can interfaces
+allow-hotplug can0
+iface can0 can static
+bitrate 250000
+down /sbin/ip link set $IFACE down
+up /sbin/ifconfig $IFACE txqueuelen 10000
+
+allow-hotplug can1
+iface can1 can static
+bitrate 250000
+down /sbin/ip link set $IFACE down
+up /sbin/ifconfig $IFACE txqueuelen 10000
+
+#virtual can interfaces
+auto vcan0
+iface vcan0 inet manual
+pre-up /sbin/ip link add dev $IFACE type vcan
+up /sbin/ifconfig $IFACE up
+
