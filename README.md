@@ -40,6 +40,7 @@ It is designed for low latency applications using remote in browser displays and
 4.8. [Real Time Clock](#rtc)  
 4.9. [Logo backlight](#led)  
 4.10. [Bluetooth](#ble)  
+4.11. [Watchdog](#wd) 
 5. [Applications](#applications)  
 5.1. [Remove Applications](#rem_app)  
 5.2. [Minicom](#minicom)
@@ -183,6 +184,10 @@ Cores :
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq -> Current clock
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq -> Min Clock
     cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq -> Max Clock
+    
+ Debug :
+ 
+     d
 
 ### 4.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
@@ -332,6 +337,10 @@ coming soon
 ### 4.6 Git
 ### 4.7 Templates
 -->
+
+### 4.11. Watchdog <a name="wd"></a>
+
+Comming soon / https://medium.com/@arslion/enabling-watchdog-on-raspberry-pi-b7e574dcba6b
 
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
