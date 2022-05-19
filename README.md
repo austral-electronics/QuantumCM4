@@ -303,6 +303,8 @@ Transmit sentences test :
 
     cansend can1 7DF#0201050000000000
     cansend can0 7DF#0201050000000000
+    
+Pthon example : https://www.waveshare.com/wiki/2-CH_CAN_HAT#.E3.80.90Python_example.E3.80.91
 
 ### 4.8. Real Time Clock <a name="rtc"></a>
 To verify the RTC chip response on I2C bus :
