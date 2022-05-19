@@ -272,7 +272,7 @@ You must see can0, can1 and vcan0
 
 If not, check for a hardware problem
 
-    dmesg | grep spi
+    dmesg | grep -i -E "(mcp|spi)"
 
 Change baudrate :
 
