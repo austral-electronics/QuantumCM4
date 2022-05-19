@@ -270,9 +270,14 @@ You must see can0, can1 and vcan0
     ip -s -d link show can0
     ip -s -d link show can1
 
-If not, check for a hardware problem
+You can check for a hardware problem with :
 
     dmesg | grep -i -E "(mcp|spi)"
+
+Must give :
+
+    [    8.719339] mcp251x spi1.2 can0: MCP2515 successfully initialized.
+    [    8.745038] mcp251x spi0.1 can1: MCP2515 successfully initialized.
 
 Change baudrate :
 
