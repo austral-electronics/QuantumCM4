@@ -270,11 +270,11 @@ Verify the configuration :
 
      ifconfig
 
-You must see can0, can1 and vcan0 peripherals, and rx/tx packets.
-The naming convention :
+You must see can0, can1 and vcan0 peripherals, and rx/tx packets status.
+Alias :
 * can0 -> CAN2 Isolated - Secondary CANbus port (near Serials M12)
 * can1 -> CAN1 with PowerIn - Main CANbus port (near Ethernet M12)
-* vcan0 -> Virtual CANbus - For development
+* vcan0 -> Virtual CANbus for development
 
 You can also see the status with :
 
