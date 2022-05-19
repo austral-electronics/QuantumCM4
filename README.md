@@ -187,7 +187,7 @@ Cores :
     
  Debug :
  
-     d
+     dmesg                      -> View the system Log
 
 ### 4.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
