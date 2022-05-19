@@ -30,7 +30,11 @@ pass=austral
 #sudo smbpasswd -a quantum
 sudo systemctl restart smbd
 
+printf "${YELLOW}=====================================\nInstall Watchdog${NC}\n"
+sudo apt install -y watchdog
+
 printf "${YELLOW}=====================================\nInstall CANbus Tools${NC}\n"
+sudo apt install -y can-utils
 
 printf "${YELLOW}=====================================\nInstall I2C Tools${NC}\n"
 sudo apt-get install -y i2c-tools
@@ -51,6 +55,17 @@ if [[ $installQT5 == "y" ]]; then
   printf "${YELLOW}=====================================\nInstall Qt5${NC}\n"
   sudo apt install -y qt5-qmake build-essential
   #sudo apt install -y qt5-default
+fi
+
+printf "${CYAN}Install Python3 ? press 'y' ${NC}" && read -p "" installPython3
+if [[ $installPython3 == "y" ]]; then
+  printf "${YELLOW}=====================================\nInstall PyThon3${NC}\n"
+  sudo apt-get install -y python3-pip
+  sudo apt-get install -y python3-pil
+  sudo apt-get install -y python3-numpy
+  sudo pip3 install RPi.GPIO
+  sudo pip3 install spidev 
+  sudo pip3 install python-can
 fi
 
 printf "${YELLOW}=====================================\nEnd of debian customization${NC}\n"
