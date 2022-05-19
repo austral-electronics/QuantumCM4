@@ -338,9 +338,19 @@ coming soon
 ### 4.7 Templates
 -->
 
-### 4.11. Watchdog <a name="wd"></a>
+### 4.11. Watchdog and OverTemperature <a name="wd"></a>
 
-Comming soon / https://medium.com/@arslion/enabling-watchdog-on-raspberry-pi-b7e574dcba6b
+Tutorial : https://medium.com/@arslion/enabling-watchdog-on-raspberry-pi-b7e574dcba6b
+
+Settings :
+
+    sudo nano /etc/watchdog.conf
+    sudo nano /etc/default/watchdog
+
+Start the service :
+
+    sudo systemctl start watchdog
+    
 
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
