@@ -270,8 +270,13 @@ Verify the configuration :
 
      ifconfig
 
-You must see can0, can1 and vcan0
+You must see can0, can1 and vcan0 peripherals, and rx/tx packets.
+The naming convention :
+* can0 -> CAN2 Isolated - Secondary CANbus port (near Serials M12)
+* can1 -> CAN1 with PowerIn - Main CANbus port (near Ethernet M12)
+* vcan0 -> Virtual CANbus - For development
 
+You can also see the status with :
     ip -s -d link show can0
     ip -s -d link show can1
 
@@ -290,10 +295,12 @@ Change baudrate :
     
 Receive sentences test :
 
-    candump can0
+    candump can1       -> CAN1 (PowerIn near Ethernet M12)
+    candump can0       -> CAN2 (Isolated near Serials M12)
     
 Transmit sentences test :
 
+    cansend can1 7DF#0201050000000000
     cansend can0 7DF#0201050000000000
 
 ### 4.8. Real Time Clock <a name="rtc"></a>
