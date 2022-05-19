@@ -277,6 +277,7 @@ The naming convention :
 * vcan0 -> Virtual CANbus - For development
 
 You can also see the status with :
+
     ip -s -d link show can0
     ip -s -d link show can1
 
