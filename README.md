@@ -104,10 +104,6 @@ launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
 
-If you modify configure.sh script for your needs and you have a CRLF problem, you can clean it with :
-    
-    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
-
 Operations realized by the script :  
 * Update and upgrade Debian
 * Configure Ethernet & Wifi
@@ -175,7 +171,7 @@ Launch nmap to scan all DHCP ip addresses
 * If you modify configure.sh script with an editor you may have a CRLF problem, you can clean it with :
     
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
-    
+
 ## 4. TEST THE PERIPHERALS <a name="peripherals"></a>   
 ### 4.1. Get the system configuration <a name="get_conf"></a>
 
@@ -280,6 +276,63 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
     net config workstation
 
 ### 4.6. Serials <a name="serials"></a>
+
+List all the ports:
+
+    ls -l /dev/ttyA*
+
+You must see 3 ports:
+
+    crw-rw---- 1 root dialout 204, 64 May 19 16:42 /dev/ttyAMA0
+    crw-rw---- 1 root dialout 204, 65 Mar 20 20:55 /dev/ttyAMA1
+    crw-rw---- 1 root dialout 204, 66 Mar 20 20:55 /dev/ttyAMA2
+
+You can test the ports with minicom :
+
+    sudo apt update -y
+    sudo apt install minicom -y
+    sudo minicom -D /dev/ttyAMA0
+    
+You can also test in bash command :
+
+**RS232 TXD3, RXD3 :**
+
+    # Configure
+    stty -F /dev/ttyAMA1 speed 4800 cs8 -cstopb -parenb
+
+    # Read
+    cat /dev/ttyAMA1
+
+    # Write
+    echo -e "UART3 Working \x0D\x0A" > /dev/ttyAMA1
+
+**RS232 TXD5, RXD5 :**
+
+    # Configure
+    stty -F /dev/ttyAMA2 speed 4800 cs8 -cstopb -parenb
+
+    # Read
+    cat /dev/ttyAMA2
+
+    # Write
+    echo -e "UART5 Working \x0D\x0A" > /dev/ttyAMA2
+    
+**RS232/RS485 : TXD0, RXD0 :**
+
+    # Set EN0_1 (GPIO26) and RS485_0_1 (GPIO24) ports as output
+    echo "26" > /sys/class/gpio/unexport
+    echo "26" > /sys/class/gpio/export
+    echo "out" > /sys/class/gpio/gpio26/direction
+    echo "24" > /sys/class/gpio/export
+    echo "out" > /sys/class/gpio/gpio24/direction
+    
+    # Config in RS232 mode 
+    echo "1" > /sys/class/gpio/gpio26/value
+    echo "0" > /sys/class/gpio/gpio24/value
+    
+    # Config in RS485 mode
+    echo "1" > /sys/class/gpio/gpio26/value
+    echo "1" > /sys/class/gpio/gpio24/value    
 
 ### 4.7. CANbus <a name="canbus"></a>
 Verify the configuration :
