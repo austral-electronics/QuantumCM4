@@ -41,7 +41,7 @@ It is designed for low latency applications using remote in browser displays and
 4.9. [Logo backlight](#led)  
 4.10. [Bluetooth](#ble)  
 4.11. [Watchdog](#wd)  
-4.11. [PWM](#pwm)  
+4.11. [Optional PWM](#pwm)  
 5. [Applications](#applications)  
 5.1. [Remove Applications](#rem_app)  
 5.2. [Minicom](#minicom)
@@ -456,10 +456,12 @@ Start the service :
 
     sudo systemctl start watchdog
     
-### 4.12. PWM <a name="pwm"></a>
+### 4.12. Optional PWM <a name="pwm"></a>
 
-COM3-TXD (TXD5) may be use as PWM0
+COM3-TXD (TXD5) output may be use as PWM0 (PIN 6 of the M12 connector).
+With a hardware modification PWM0 can also replace PWR-OUT on the PIN5 of the M12 connector.
 
+Contact us for more information.
 
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
