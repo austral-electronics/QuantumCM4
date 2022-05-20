@@ -168,6 +168,14 @@ Launch nmap to scan all DHCP ip addresses
 #### I have an SSH error 'ECDSA host key for quantum.local has changed '
     ssh-keygen -R quantum.local
 
+#### The configure.sh script don't work
+
+* Verify the internet connection
+
+* If you modify configure.sh script with an editor you may have a CRLF problem, you can clean it with :
+    
+    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
+    
 ## 4. TEST THE PERIPHERALS <a name="peripherals"></a>   
 ### 4.1. Get the system configuration <a name="get_conf"></a>
 
