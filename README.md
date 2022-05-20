@@ -99,6 +99,8 @@ The default password is : austral
 launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
+    
+    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh -O - | bash
 
 Operations realized by the script :  
 * Update and upgrade Debian
