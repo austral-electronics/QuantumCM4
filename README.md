@@ -309,7 +309,7 @@ You can also test in bash command :
     cat /dev/ttyAMA1
 
     # Write
-    echo -e "UART3 Working \x0D\x0A" > /dev/ttyAMA1
+    echo -e "TX COM2 Working \x0D\x0A" > /dev/ttyAMA1
 
 **COM3 = ttyAMA2: RS232 port (uart5) :**
 
@@ -320,7 +320,7 @@ You can also test in bash command :
     cat /dev/ttyAMA2
 
     # Write
-    echo -e "UART5 Working \x0D\x0A" > /dev/ttyAMA2
+    echo -e "TX COM3 Working \x0D\x0A" > /dev/ttyAMA2
     
 **COM1 = ttyAMA0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
 
@@ -341,7 +341,7 @@ You can also test in bash command :
     cat /dev/ttyAMA0
 
     # Write
-    echo -e "UART0 Working \x0D\x0A" > /dev/ttyAMA0
+    echo -e "TX COM1 Working \x0D\x0A" > /dev/ttyAMA0
 
 **Replace COM1 with the linux serial console :**
 
@@ -358,7 +358,7 @@ Interface Options ->  Serial Port, and reboot
     cat /dev/ttyS0
 
     # Write
-    echo -e "UART0 Working \x0D\x0A" > /dev/ttyS0
+    echo -e "Working \x0D\x0A" > /dev/ttyS0
 
 ### 4.7. CANbus <a name="canbus"></a>
 Verify the configuration :
