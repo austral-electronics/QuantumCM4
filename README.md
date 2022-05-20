@@ -96,6 +96,10 @@ See above
     ssh quantum@192.168.100.100
 The default password is : austral
 
+On windows you can launch also install [putty](https://putty.org/) and create a .bat shortcut with :
+
+    putty.exe -ssh quantum@192.168.100.100 -pw austral
+
 launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
