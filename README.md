@@ -40,7 +40,8 @@ It is designed for low latency applications using remote in browser displays and
 4.8. [Real Time Clock](#rtc)  
 4.9. [Logo backlight](#led)  
 4.10. [Bluetooth](#ble)  
-4.11. [Watchdog](#wd) 
+4.11. [Watchdog](#wd)  
+4.11. [PWM](#pwm)  
 5. [Applications](#applications)  
 5.1. [Remove Applications](#rem_app)  
 5.2. [Minicom](#minicom)
@@ -299,7 +300,7 @@ You can test the ports with minicom :
     
 You can also test in bash command :
 
-**RS232 TXD3, RXD3 :**
+**COM2 / ttyAMA1 : RS232 port (uart3 with CTS for PPS input on GPIO 6) :**
 
     # Configure
     stty -F /dev/ttyAMA1 speed 4800 cs8 -cstopb -parenb
@@ -310,7 +311,7 @@ You can also test in bash command :
     # Write
     echo -e "UART3 Working \x0D\x0A" > /dev/ttyAMA1
 
-**RS232 TXD5, RXD5 :**
+**COM3 / ttyAMA2: RS232 port (uart5) :**
 
     # Configure
     stty -F /dev/ttyAMA2 speed 4800 cs8 -cstopb -parenb
@@ -321,21 +322,16 @@ You can also test in bash command :
     # Write
     echo -e "UART5 Working \x0D\x0A" > /dev/ttyAMA2
     
-**RS232/RS485 : TXD0, RXD0 :**
+**RS232/RS485 : uart1 with hardware RTS and a GPIO for RS485 mode :**
 
-    # Set EN0_1 (GPIO26) and RS485_0_1 (GPIO24) ports as output
-    echo "26" > /sys/class/gpio/unexport
-    echo "26" > /sys/class/gpio/export
-    echo "out" > /sys/class/gpio/gpio26/direction
+    # Set RS485_0_1 (GPIO24) ports as output
     echo "24" > /sys/class/gpio/export
     echo "out" > /sys/class/gpio/gpio24/direction
     
     # Config in RS232 mode 
-    echo "1" > /sys/class/gpio/gpio26/value
     echo "0" > /sys/class/gpio/gpio24/value
     
     # Config in RS485 mode
-    echo "1" > /sys/class/gpio/gpio26/value
     echo "1" > /sys/class/gpio/gpio24/value    
    
     # Configure
@@ -460,6 +456,10 @@ Start the service :
 
     sudo systemctl start watchdog
     
+### 4.12. PWM <a name="pwm"></a>
+
+COM3-TXD (TXD5) may be use as PWM0
+
 
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
