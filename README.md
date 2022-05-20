@@ -103,8 +103,10 @@ On windows you can launch also install [putty](https://putty.org/) and create a 
 launch the configuration script :
 
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
+
+If you modify configure.sh script for your needs and you have a CRLF problem, you can clean it with :
     
-    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh -O - | bash
+    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
 
 Operations realized by the script :  
 * Update and upgrade Debian
