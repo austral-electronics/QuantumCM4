@@ -277,6 +277,10 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 
 ### 4.6. Serials <a name="serials"></a>
 
+Pinouts :
+
+![Pinouts](/images/Pinouts.png)
+
 List all the ports:
 
     ls -l /dev/ttyA*
