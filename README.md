@@ -300,7 +300,7 @@ You can test the ports with minicom :
     
 You can also test in bash command :
 
-**COM2 / ttyAMA1 : RS232 port (uart3 with CTS for PPS input on GPIO 6) :**
+**COM2 = ttyAMA1 : RS232 port (uart3 with CTS for PPS input on GPIO 6) :**
 
     # Configure
     stty -F /dev/ttyAMA1 speed 4800 cs8 -cstopb -parenb
@@ -311,7 +311,7 @@ You can also test in bash command :
     # Write
     echo -e "UART3 Working \x0D\x0A" > /dev/ttyAMA1
 
-**COM3 / ttyAMA2: RS232 port (uart5) :**
+**COM3 = ttyAMA2: RS232 port (uart5) :**
 
     # Configure
     stty -F /dev/ttyAMA2 speed 4800 cs8 -cstopb -parenb
@@ -322,7 +322,7 @@ You can also test in bash command :
     # Write
     echo -e "UART5 Working \x0D\x0A" > /dev/ttyAMA2
     
-**RS232/RS485 : uart1 with hardware RTS and a GPIO for RS485 mode :**
+**COM1 = ttyAMA0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
 
     # Set RS485_0_1 (GPIO24) ports as output
     echo "24" > /sys/class/gpio/export
@@ -343,7 +343,7 @@ You can also test in bash command :
     # Write
     echo -e "UART0 Working \x0D\x0A" > /dev/ttyAMA0
 
-**Optional serial console :**
+**Replace COM1 with the linux serial console :**
 
 For debug purposes, you can activate/desactivate a debug console with 
 
