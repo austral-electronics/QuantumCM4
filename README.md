@@ -333,6 +333,32 @@ You can also test in bash command :
     # Config in RS485 mode
     echo "1" > /sys/class/gpio/gpio26/value
     echo "1" > /sys/class/gpio/gpio24/value    
+   
+    # Configure
+    stty -F /dev/ttyAMA0 speed 4800 cs8 -cstopb -parenb
+    
+    # Read
+    cat /dev/ttyAMA0
+
+    # Write
+    echo -e "UART0 Working \x0D\x0A" > /dev/ttyAMA0
+
+**Optional serial console :**
+
+For debug purposes, you can activate/desactivate a debug console with 
+
+    sudo raspi-config 
+
+Interface Options ->  Serial Port, and reboot
+
+    # Configure 
+    stty -F /dev/ttyS0 speed 115200 cs8 -cstopb -parenb
+
+    # Read
+    cat /dev/ttyS0
+
+    # Write
+    echo -e "UART0 Working \x0D\x0A" > /dev/ttyS0
 
 ### 4.7. CANbus <a name="canbus"></a>
 Verify the configuration :
