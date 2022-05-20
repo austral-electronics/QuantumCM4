@@ -324,6 +324,8 @@ You can also test in bash command :
     
 **COM1 = ttyAMA0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
 
+!!!! Warning : If you have an isolated hardware, connect your ground wire to COM1-GND !!!!
+
     # Set RS485_0_1 (GPIO24) ports as output
     echo "24" > /sys/class/gpio/export
     echo "out" > /sys/class/gpio/gpio24/direction
