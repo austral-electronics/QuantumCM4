@@ -464,12 +464,24 @@ Stress the CPUs:
     sudo apt install stress-ng mesa-util
     stress-ng --cpu 0 --cpu-method fft
 
-Verify the CPUs Temperature and the Current clock speed in another console:
+Open 3 others consoles and verify the CPUs Temperature, the current cores clocks speed, the throttle:
 
-    vcgencmd measure_temp
-    vcgencmd measure_clock arm
+    watch -n 1 vcgencmd measure_temp
+    watch -n 1 vcgencmd measure_clock arm
+    watch -n 1 vcgencmd get_throttled
     
-Note : The throttle point is 80°C 
+Note : The throttle point is 80°C
+
+You can also lauch a python script to log the test :
+
+    from gpiozero import CPUTemperature
+    from time import sleep, strftime, time
+    
+    with open("/home/quantum/cpu_temp.csv", "a") as log:
+    while True:
+        cpu = CPUTemperature()
+        log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(cpu.temperature)))
+        sleep(1)
     
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
