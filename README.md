@@ -464,15 +464,31 @@ Stress the CPUs:
     sudo apt install stress-ng mesa-util
     stress-ng --cpu 0 --cpu-method fft
 
-Open 3 others consoles and verify the CPUs Temperature, the current cores clocks speed, the throttle:
+Open 3 others consoles and verify the CPUs Temperature, the current cores clocks speed (1500Mhz) and the throttle:
 
     watch -n 1 vcgencmd measure_temp
     watch -n 1 vcgencmd measure_clock arm
     watch -n 1 vcgencmd get_throttled
-    
+
+Throttled :
+
+    0: under-voltage
+    1: arm frequency capped
+    2: currently throttled 
+    16: under-voltage has occurred
+    17: arm frequency capped has occurred
+    18: throttling has occurred
+
+under-voltage occurs when voltage drops below 4.63V. The Quantum is throttled
+arm frequency capped occurs with temp > 80'C
+over-temperature occurs with temp > 85'C. The Quantum is throttled
+Throttling removes turbo mode, which reduces core voltage, and sets arm and gpu frequencies to non-turbo value.
+Capping just limits the arm frequency (somewhere between 600MHz and 1200MHz) to try to avoid throttling.
+If you are throttled and not under-voltage then you can assume over-temperature. (confirm with vcgencmd measure_temp).
+
 Note : Above 82 °C (180 °F), the clock frequency is automatically lowered, regardless of which flag is set. This action will reduce heat development. Once cooled down, the clock is restored to its original frequency.
 
-You can also lauch a python script to log the test :
+You can also lauch a python script to log a long test :
 
     from gpiozero import CPUTemperature
     from time import sleep, strftime, time
