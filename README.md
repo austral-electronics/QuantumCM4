@@ -337,13 +337,13 @@ You can also test in bash command :
     echo "1" > /sys/class/gpio/gpio24/value    
    
     # Configure
-    stty -F /dev/ttyAMA0 speed 4800 cs8 -cstopb -parenb
+    stty -F /dev/ttyS0 speed 4800 cs8 -cstopb -parenb
     
     # Read
-    cat /dev/ttyAMA0
+    cat /dev/ttyS0
 
     # Write
-    echo -e "TX COM1 Working \x0D\x0A" > /dev/ttyAMA0
+    echo -e "TX COM1 Working \x0D\x0A" > /dev/ttyS0
 
 **Replace COM1 with the linux serial console :**
 
@@ -351,16 +351,7 @@ For debug purposes, you can activate/desactivate a debug console with
 
     sudo raspi-config 
 
-Interface Options ->  Serial Port, and reboot
-
-    # Configure 
-    stty -F /dev/ttyS0 speed 115200 cs8 -cstopb -parenb
-
-    # Read
-    cat /dev/ttyS0
-
-    # Write
-    echo -e "Working \x0D\x0A" > /dev/ttyS0
+Interface Options ->  Serial Port -> Shell accessible over serial -> Yes
 
 ### 4.7. CANbus <a name="canbus"></a>
 Verify the configuration :
