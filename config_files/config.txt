@@ -99,13 +99,17 @@ dtoverlay=mcp2515,spi1-2,oscillator=16000000,interrupt=26
 enable_uart=1
 dtoverlay=uart3
 dtoverlay=uart5
-dtoverlay=uart1,ctsrts
+#dtoverlay=uart1,ctsrts
+dtoverlay=uart1
 
-#Quantum: SET RS485=GPIO24 as output an 1
-gpio=24=op,dh
+#Quantum: SET RTS1=GPIO17 as GPIO output and 0
+gpio=17=op,dl
 
-#Quantum: SET LED = GPIO27 as output an Off
-gpio=27=op,dl
+#Quantum: SET RS485=GPIO24 as output and to 0 (0=RS232, 1=RS485)
+gpio=24=op,dl
+
+#Quantum: SET LED = GPIO27 as output and On
+gpio=27=op,dh
 
 #Quantum: Watchdog
 dtparam=watchdog=on
