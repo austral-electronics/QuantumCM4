@@ -41,7 +41,8 @@ It is designed for low latency applications using remote in browser displays and
 4.9. [Logo backlight](#led)  
 4.10. [Bluetooth](#ble)  
 4.11. [Watchdog](#wd)  
-4.11. [Optional PWM](#pwm)  
+4.12. [Optional PWM](#pwm)  
+4.13. [Thermal Stress Test](#thermal)
 5. [Applications](#applications)  
 5.1. [Remove Applications](#rem_app)  
 5.2. [Minicom](#minicom)
@@ -456,6 +457,20 @@ With a hardware modification PWM0 can also replace PWR-OUT on the PIN5 of the M1
 
 Contact us for more information.
 
+### 4.13. Thermal Stress Test <a name="thermal"></a>
+
+Stress the CPUs:
+
+    sudo apt install stress-ng mesa-util
+    stress-ng --cpu 0 --cpu-method fft
+
+Verify the CPUs Temperature and the Current clock speed in another console:
+
+    vcgencmd measure_temp
+    vcgencmd measure_clock arm
+    
+Note : soft throttle point = 60°C, Hard throttle point = 80°C 
+    
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
 Remove applications you installed with apt-get with:
