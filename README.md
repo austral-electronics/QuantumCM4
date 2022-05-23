@@ -469,7 +469,7 @@ Verify the CPUs Temperature and the Current clock speed in another console:
     vcgencmd measure_temp
     vcgencmd measure_clock arm
     
-Note : soft throttle point = 60°C, Hard throttle point = 80°C 
+Note : The throttle point is 80°C 
     
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
