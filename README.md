@@ -322,7 +322,7 @@ You can also test in bash command :
     # Write
     echo -e "TX COM3 Working \x0D\x0A" > /dev/ttyAMA2
     
-**COM1 = ttyAMA0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
+**COM1 = ttyS0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
 
 !!!! Warning : If you have an isolated hardware, connect your ground wire to COM1-GND !!!!
 
