@@ -470,7 +470,7 @@ Open 3 others consoles and verify the CPUs Temperature, the current cores clocks
     watch -n 1 vcgencmd measure_clock arm
     watch -n 1 vcgencmd get_throttled
     
-Note : The throttle point is 80°C
+Note : Above 82 °C (180 °F), the clock frequency is automatically lowered, regardless of which flag is set. This action will reduce heat development. Once cooled down, the clock is restored to its original frequency.
 
 You can also lauch a python script to log the test :
 
@@ -481,7 +481,7 @@ You can also lauch a python script to log the test :
     while True:
         cpu = CPUTemperature()
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(cpu.temperature)))
-        sleep(1)
+        sleep(60)
     
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
