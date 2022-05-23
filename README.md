@@ -470,7 +470,7 @@ Open 3 others consoles and verify the CPUs Temperature, the current cores clocks
     watch -n 1 vcgencmd measure_clock arm
     watch -n 1 vcgencmd get_throttled
 
-Throttled :
+Throttle Status :
 
     0: under-voltage
     1: arm frequency capped
@@ -488,7 +488,18 @@ If you are throttled and not under-voltage then you can assume over-temperature.
 
 Note : Above 82 °C (180 °F), the clock frequency is automatically lowered, regardless of which flag is set. This action will reduce heat development. Once cooled down, the clock is restored to its original frequency.
 
-You can also lauch a python script to log a long test :
+You can view the 3 informations using a bash script :
+
+    while :
+    do
+      vcgencmd measure_clock arm
+      vcgencmd measure_temp
+      vcgencmd get_throttled
+      sleep 1
+      echo ''
+    done
+
+You can also lauch a python script to log a long test in a csv file :
 
     from gpiozero import CPUTemperature
     from time import sleep, strftime, time
@@ -497,7 +508,7 @@ You can also lauch a python script to log a long test :
     while True:
         cpu = CPUTemperature()
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(cpu.temperature)))
-        sleep(60)
+        sleep(1)
     
 ## 5. Applications <a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
