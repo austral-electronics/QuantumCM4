@@ -84,7 +84,7 @@ The choice of the version depends on the deployment date of your system.
 ![Advanced Options](/images/AdvancedOptions.png)
 ### 3.3. Program the EMMC <a name="prog_emmc"></a>
 Coming soon
-### 3.4. Create a Debian image from scratch <a name="debian_from_scatch"></a>
+### 3.4. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
 If you are not a Linux expert, the following example is the easiest way to create and deploy your own linux distribution with your applications pre-installed. You only need to customize a configuration script and somes settings (IP, password...).
 
