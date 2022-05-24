@@ -83,7 +83,7 @@ The choice of the version depends on the deployment date of your system.
 
 ![Advanced Options](/images/AdvancedOptions.png)
 ### 3.3. Program the EMMC <a name="prog_emmc"></a>
-If you have a version of Auantum EMMC and not micro SD-card, the procedure is different.  
+If you have a Quantum version EMMC and not micro SD-card, the procedure is slightly different.  
 On windows, install [rpiboot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)  
 Connect the Quantum to Windows using a USB cable connected to the USB Slave port.  
 Boot the Quantum with the EMMC_BOOT switch ON.  
