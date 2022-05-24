@@ -293,23 +293,23 @@ Pinouts :
 
 List all the ports:
 
-    ls -l /dev/ttyA*
+    ls -l /dev/tty*
 
-You must see 3 ports:
+You must see the 3 used ports:
 
-    crw-rw---- 1 root dialout 204, 64 May 19 16:42 /dev/ttyAMA0
-    crw-rw---- 1 root dialout 204, 65 Mar 20 20:55 /dev/ttyAMA1
-    crw-rw---- 1 root dialout 204, 66 Mar 20 20:55 /dev/ttyAMA2
+    /dev/ttyS0
+    /dev/ttyAMA1
+    /dev/ttyAMA2
 
 You can test the ports with minicom :
 
     sudo apt update -y
     sudo apt install minicom -y
-    sudo minicom -D /dev/ttyAMA0
+    sudo minicom -D /dev/ttyS0
     
 You can also test in bash command :
 
-**COM2 = ttyAMA1 : RS232 port (uart3 with CTS for PPS input on GPIO 6) :**
+**COM2 = ttyAMA1 : RS232 port (uart3 with CTS for PPS input on GPIO6) :**
 
     # Configure
     stty -F /dev/ttyAMA1 speed 4800 cs8 -cstopb -parenb
@@ -331,11 +331,15 @@ You can also test in bash command :
     # Write
     echo -e "TX COM3 Working \x0D\x0A" > /dev/ttyAMA2
     
-**COM1 = ttyS0 : RS232/RS485 port (uart1 with hardware RTS and a GPIO24 for RS232/RS422/RS485 selection) :**
+**COM1 = ttyS0 : Multifunction port (uart1 with hardware RTS1 and a RS485/MODBUS/422 selection) :**
+
+By default this port is configured in RS232 with RTS.  
+RS485_MODE (GPIO24) is used for RS485/MODBUS/RS422 selection.  
+RTS1 (GPIO17) is used for the high/low impedance control in RS485/MODBUS mode.  
 
 !!!! Warning : If you have an isolated hardware, connect your ground wire to COM1-GND !!!!
 
-    # Set RS485_0_1 (GPIO24) ports as output
+    # Set RS485_MODE (GPIO24) ports as output
     echo "24" > /sys/class/gpio/export
     echo "out" > /sys/class/gpio/gpio24/direction
     
