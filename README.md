@@ -104,7 +104,7 @@ On windows you can launch also install [putty](https://putty.org/) and create a 
 
 launch the configuration script :
 
-    wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh && bash configure.sh
+    bash <(curl -sL https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh)
 
 Operations realized by the script :  
 * Update and upgrade Debian
