@@ -437,7 +437,8 @@ To test the LED :
     
 ### 4.10. Bluetooth <a name="ble"></a>
 
-coming soon
+[Here](https://howchoo.com/pi/bluetooth-raspberry-pi#setting-up-bluetooth-using-a-terminal-or-ssh-connection)
+
 <!---    
 ## 5. INSTALL THE SDK ON WINDOWS
 ### 4.1 Visual Code
