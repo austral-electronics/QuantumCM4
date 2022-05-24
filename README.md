@@ -83,12 +83,12 @@ The choice of the version depends on the deployment date of your system.
 
 ![Advanced Options](/images/AdvancedOptions.png)
 ### 3.3. Program the EMMC <a name="prog_emmc"></a>
-If you have a version of Auantum EMMC and not micro SD-card, the procedure is different.
-On windows, install [rpiboot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)
-Connect the Quantum to Windows using a USB cable connected to the USB Slave port
-Boot the Quantum with the EMMC_BOOT switch ON
-The EMMC appears as a disc on windows that you have to select in the imager.
-Switch back to OFF after programming.
+If you have a version of Auantum EMMC and not micro SD-card, the procedure is different.  
+On windows, install [rpiboot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)  
+Connect the Quantum to Windows using a USB cable connected to the USB Slave port.  
+Boot the Quantum with the EMMC_BOOT switch ON.  
+The EMMC appears as a disc on windows that you have to select in the imager.  
+Switch back to OFF after programming.  
 
 ### 3.4. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
