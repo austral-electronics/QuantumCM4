@@ -86,7 +86,7 @@ The choice of the version depends on the deployment date of your system.
 Coming soon
 ### 3.4. Create a Debian image from scratch <a name="debian_from_scatch"></a>
 
-Using debian is the easiest way to create and deploy your own linux distribution with your application pre-installed.
+If you are not a Linux expert, the following example is the easiest way to create and deploy your own linux distribution with your applications pre-installed. You only need to customize a configuration script and somes settings (IP, password...).
 
 **Get Debian an image :**
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/
