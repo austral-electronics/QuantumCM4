@@ -133,7 +133,6 @@ Operations realized by the script :
   * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
   * [Signal K](https://signalk.org/) (Open marine data standard)
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
-  * NMEA2000 (Marine CanBus communication - paid Austral Electronics stack)
 
 **Deployment : Shrink and backup the image:**
 
