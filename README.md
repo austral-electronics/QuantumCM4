@@ -437,7 +437,8 @@ To test the LED :
     
 ### 4.10. Bluetooth <a name="ble"></a>
 
-[Here](https://howchoo.com/pi/bluetooth-raspberry-pi#setting-up-bluetooth-using-a-terminal-or-ssh-connection)
+Bluetooth allows you to connect buttons, a speaker, a microphone... to the Quantum CM4.  
+[How to](https://howchoo.com/pi/bluetooth-raspberry-pi#setting-up-bluetooth-using-a-terminal-or-ssh-connection)
 
 <!---    
 ## 5. INSTALL THE SDK ON WINDOWS
