@@ -437,7 +437,7 @@ To test the LED :
     
 ### 4.10. Bluetooth <a name="ble"></a>
 
-Bluetooth allows you to connect buttons, a speaker, a microphone... to the Quantum CM4.  
+Bluetooth allows you to connect a GNSS, a Remote control... to the Quantum CM4 or transform it to a voice assistant.  
 [How to](https://howchoo.com/pi/bluetooth-raspberry-pi#setting-up-bluetooth-using-a-terminal-or-ssh-connection)
 
 <!---    
