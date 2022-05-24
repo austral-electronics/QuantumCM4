@@ -27,7 +27,7 @@ It is designed for low latency applications using remote in browser displays and
 3.1. [Download a Debian image](#download_debian)  
 3.2. [Program the Micro SD-CARD](#prog_sd)  
 3.3. [Program the EMMC](#prog_emmc)  
-3.4. [Create a Debian image from scratch](#debian_from_scatch)  
+3.4. [Create your own Debian image from scratch](#debian_from_scatch)  
 3.5. [Configuration current issues](#config_issues)  
 4. [Test the peripherals](#peripherals)  
 4.1. [Get the system configuration](#get_conf)  
