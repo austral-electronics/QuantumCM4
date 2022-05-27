@@ -532,7 +532,7 @@ You can also lauch a python script to log a long test in a csv file :
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(cpu.temperature)))
         sleep(1)
     
-## 5. Applications <a name="applications"></a> 
+## 5. Applications<a name="applications"></a> 
 ### 5.1. Remove Applications <a name="rem_app"></a>
 Remove applications you installed with apt-get with:
 
@@ -548,6 +548,11 @@ Minicom is a simple terminal usefull to scan serials
     sudo apt update -y
     sudo apt install minicom -y
     sudo minicom -D /dev/serial0
+    
+### 5.3 CAN Open  
+
+[Lely CANOpen](https://opensource.lely.com/canopen/docs/installation/)
+    
 
 ## Disclaimers <a name="disclamers"></a>
 *Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
