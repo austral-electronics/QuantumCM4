@@ -115,7 +115,7 @@ Verify the internet connection of the Quantum CM4 :
 
     ping -q -c1 google.com &>/dev/null && echo online || echo offline
 
-launch the configuration script :
+If you are 'Online', you can download and launch configuration script, otherwise verify your Ethernet or Wifi configuration :
 
     bash <(curl -sL https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh)
 
