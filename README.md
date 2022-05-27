@@ -19,7 +19,7 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized a
 ***Multilanguage** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Node-Red, Rust, Java, Go...*
 
 ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
-It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, IOT, IA, Cloud, Dashboards, Asset tracking …*
+It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, IOT, IA, Cloud, Dashboards, Voice Assistant, Asset tracking …*
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
@@ -483,8 +483,8 @@ Start the service :
     
 ### 4.12. Optional PWM <a name="pwm"></a>
 
-COM3-TXD (TXD5) output may be use as PWM0 (PIN 6 of the M12 connector).
-With a hardware modification PWM0 can also replace PWR-OUT on the PIN5 of the M12 connector.
+COM3-TXD (TXD5) output may be use as PWM0 (PIN 6 of the M12 connector).  
+Note: With a factory hardware modification PWM0 can also replace PWR-OUT on the PIN5 of the M12 connector.
 
 Contact us for more information.
 
