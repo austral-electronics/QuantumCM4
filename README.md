@@ -7,7 +7,7 @@
 # Quantum CM4 OEM - Rugged Processor & IOT Gateway
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
-- **Shrink your team and schedule :** Focus on your core business by using a proven modular hardware and a mainstream software solution. Take advantage of the support and examples of the largest developer community.  
+- **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Take advantage of the support and examples of the largest developer community.  
 - **Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot !!! in minutes and accessible to all !!! :** If it is suitable for your application, you can freely use our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 
 ## Overview <a name="overview"></a>
