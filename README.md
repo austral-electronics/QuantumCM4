@@ -4,7 +4,7 @@
     
 *Your data here, there, or anywhere*  
 
-# Quantum CM4 OEM - Rugged Calculator & IOT Gateway !!! NEW 2022 !!!
+# Quantum CM4 OEM - Rugged Calculator & IOT Gateway
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven hardware and OS, the support of the largest developer community.  
