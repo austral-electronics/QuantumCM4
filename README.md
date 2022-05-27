@@ -176,8 +176,10 @@ Launch nmap to scan all DHCP ip addresses
 
 #### The configure.sh script don't work
 
-* Verify the internet connection
+* Verify the internet connection of the Quantum CM4:
 
+    ping -q -c1 google.com &>/dev/null && echo online || echo offline
+    
 * If you modify configure.sh script with an editor you may have a CRLF problem, you can clean it with :
     
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
