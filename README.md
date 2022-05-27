@@ -48,7 +48,8 @@ It is designed for low latency applications using remote in browser displays and
 5.2. [Tools](#tools)  
 5.3. [Protocols](#protocols)  
 5.4. [Databases](#databases)  
-6.   [Disclaimers](#disclamers)
+6. [Others Operating Systems](#oos)  
+7.   [Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
 
@@ -558,6 +559,9 @@ Minicom is a simple terminal usefull to scan serials
 #### 5.4 Databases <a name="databases"></a>
 
 [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone)
+## 6. Others Operating systems<a name="oos"></a>
+
+[Redpesk Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)
 
 ## Disclaimers <a name="disclamers"></a>
 *Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
