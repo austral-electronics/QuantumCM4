@@ -563,8 +563,9 @@ Minicom is a simple terminal usefull to scan serials
 [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone)
 ## 6. Others Operating systems links<a name="oos"></a>
 
-[Buildroot Video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
+[Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
 [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
+[Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
 [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
 [AGL Link - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)  
 
