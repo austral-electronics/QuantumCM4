@@ -111,6 +111,10 @@ On windows you can launch also install [putty](https://putty.org/) and create a 
 
     putty.exe -ssh quantum@192.168.100.100 -pw austral
 
+Verify the internet connection of the Quantum CM4 :
+
+    ping -q -c1 google.com &>/dev/null && echo online || echo offline
+
 launch the configuration script :
 
     bash <(curl -sL https://raw.github.com/austral-electronics/QuantumCM4/main/script/configure.sh)
