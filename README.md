@@ -48,7 +48,7 @@ It is designed for low latency applications using remote in browser displays and
 5.2. [Tools](#tools)  
 5.3. [Protocols](#protocols)  
 5.4. [Databases](#databases)  
-6. [Others Operating Systems](#oos)  
+6. [Others Operating Systems Links](#oos)  
 7.   [Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
@@ -60,6 +60,8 @@ It is designed for low latency applications using remote in browser displays and
 ## 2. Operating system <a name="os"></a>
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
 We recommend the use of a [Debian](https://www.debian.org/index.en.html) distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk Marine Grade Linux](https://docs.redpesk.bzh/docs/en/master/getting_started/docs/overview.html), [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi), Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
+
+[Usefull links for others Operatings Systems](#oos)
 
 ## 3. Install Debian <a name="debian"></a>
 In order to take advantage of the huge developer community on Raspberry PI, a great [documentation](https://www.raspberrypi.com/documentation/computers/os.html#introduction) and a Tier 3 support. The Quantum CM4 Processor is preinstalled with a [Debian Linux](https://www.debian.org/index.en.html) optimized by the Raspberry PI Foundation and configured for the Quantum CM4 hardware. The OS comes with over 35,000 packages: precompiled software bundled in a nice format for easy installation. You can reinstall Debian from scratch by following this procedure.  
@@ -561,10 +563,10 @@ Minicom is a simple terminal usefull to scan serials
 [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone)
 ## 6. Others Operating systems links<a name="oos"></a>
 
-[Buildroot](https://www.youtube.com/watch?v=yxj8ynXXgbk) [Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)
-
-[Redpesk - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)
-[AGL - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)
+[Buildroot Video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
+[Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
+[Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
+[AGL Link - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)  
 
 ## Disclaimers <a name="disclamers"></a>
 *Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
