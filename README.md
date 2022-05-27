@@ -214,6 +214,8 @@ Cores :
 ### 4.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
     
+[Documentation](https://www.raspberrypi.com/documentation/computers/configuration.html)
+    
 ### 4.3. Ethernet <a name="eth"></a>
 by default the ip address is static and is 192.168.100.100
 
