@@ -8,16 +8,16 @@
 
 ## Overview <a name="overview"></a>
 
-The **Quantum CM4 makes it as easy as possible to build your next smart project operating in hostile environment**.  
-The Quantum CM4 is a **Real-time and Raspberry PI 4 software compatible** platform with browser-based remote displays.  
-**Drastically reduce your development time** with  aready to use and proven solution, the support of the largest developer community, and if it is suitable [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red), a low code visual programming with a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) in order to **connect your instruments in minutes**.
+**Makes it as easy as possible to build your next smart project operating in hostile environment** with the Quantum CM4, a Real-time and **Raspberry PI 4 software compatible** platform suitable for browser-based remote displays.  
+**Drastically reduce your development time :** With a ready to use and proven hardware and OS, the support of the largest developer community.
+**Connect your instruments, make your dashboard in minutes :** If it is suitable for your application, you can use [Node-Red](https://github.com/austral-electronics/wiki/wiki/Node-Red), a low code visual programming solution with a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 ***Industrial and Marine communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACNET, OPC-UA, MQTT, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...). **Optional IoT wireless** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... ([Contact us](http://austral-eng.com/contact/))*
 
-***Multilanguage API** : pre-installed C/C++/Qt, Python, NodeJS, Node-Red. Easy installation of Rust, Java, Go...*
+***Multilanguage** : Pre-installed C/C++/Qt, Python, NodeJS, Node-Red. Easy installation of Rust, Java, Go...*
 
 ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Automation systems, command control, Robotics, Guidance, Datalog, IOT, IA, Cloud, Dashboards, Asset tracking, Machine monitoring …*
