@@ -566,7 +566,7 @@ Minicom is a simple terminal usefull to scan serials
     
 #### 5.4 Databases <a name="databases"></a>
 
-[WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone)
+[WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone) (Optimized for Geo Time Series)
 ## 6. Others Operating systems links<a name="oos"></a>
 
 [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
