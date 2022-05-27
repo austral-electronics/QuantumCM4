@@ -558,7 +558,7 @@ Minicom is a simple terminal usefull to scan serials
 
     sudo apt update -y
     sudo apt install minicom -y
-    sudo minicom -D /dev/serial0
+    sudo minicom -D /dev/ttyS0
     
 ### 5.3 Protocols <a name="protocols"></a>
 
