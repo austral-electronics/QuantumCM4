@@ -490,6 +490,8 @@ Contact us for more information.
 
 ### 4.13. Thermal Stress Test <a name="thermal"></a>
 
+If your installation does not follow the recommendations (bare boards, horizontal mount...), you must do a thermal test under load.
+
 Stress the CPUs:
 
     sudo apt install stress-ng mesa-util
