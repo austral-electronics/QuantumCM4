@@ -10,7 +10,7 @@
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven hardware and OS, the support of the largest developer community.  
-- **Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot !!! in minutes and accessible to all !!! :** If it is suitable for your application, you can freely use our fast system integration solution based on [Node-RED](https://github.com/austral-electronics/wiki/wiki/Node-Red) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
+- **Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot !!! in minutes and accessible to all !!! :** If it is suitable for your application, you can freely use our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
