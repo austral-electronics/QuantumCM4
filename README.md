@@ -8,7 +8,7 @@
 
 ## Overview <a name="overview"></a>
 
-- **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible and professional platform suitable for real-time and browser-based remote displays.  
+- **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven hardware and OS, the support of the largest developer community.  
 - **Connect your instruments to the cloud, make your dashboard, troubleshoot !!! in minutes !!! :** If it is suitable for your application, you can use our free fast system integration solution based on [Node-RED](https://github.com/austral-electronics/wiki/wiki/Node-Red) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 
