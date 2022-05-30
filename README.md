@@ -240,6 +240,8 @@ Cores :
 ### 4.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
     
+Enable/Disable a config in command line [here](https://pi3g.com/fr/2021/05/20/enabling-and-checking-i2c-on-the-raspberry-pi-using-the-command-line-for-your-own-scripts/)
+    
 [Documentation](https://www.raspberrypi.com/documentation/computers/configuration.html)
     
 ### 4.3. Ethernet <a name="eth"></a>
