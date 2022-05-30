@@ -102,7 +102,7 @@ Switch back to OFF after programming.
 
 ### 3.4. Network Bootloader <a name="net_boot"></a>
 
-In development : [Doc](https://www.raspberrypi.com/news/network-install-beta-test-your-help-required/) [Video](https://www.youtube.com/watch?v=xjyQoIzLWac) [Advanced](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/raspberry-pi/boot-net.adoc) [Other](https://williamlam.com/2020/07/two-methods-to-network-boot-raspberry-pi-4.html)
+In development : [Doc](https://www.raspberrypi.com/news/network-install-beta-test-your-help-required/) [Video](https://www.youtube.com/watch?v=xjyQoIzLWac) [Advanced](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/raspberry-pi/boot-net.adoc) [Other](https://williamlam.com/2020/07/two-methods-to-network-boot-raspberry-pi-4.html) [Boot over PXE](https://hackaday.com/2019/11/11/network-booting-the-pi-4/)
 
 ### 3.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
