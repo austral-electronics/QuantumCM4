@@ -8,7 +8,7 @@
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Take advantage of the support and examples of the largest developer community.  
-- **Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot !!! in minutes and accessible to all !!! :** If it is suitable for your application, you can freely use our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
+- **Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot !!! in minutes and accessible to all !!! :** If it is suitable for your application, you can freely use [IZIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 
 ## Overview <a name="overview"></a>
 
@@ -31,7 +31,7 @@ It is designed for low latency applications using remote in browser displays and
 3.1. [Download a Debian image](#download_debian)  
 3.2. [Program the Micro SD-CARD](#prog_sd)  
 3.3. [Program the EMMC](#prog_emmc)  
-3.4. [Network Bootloader](#net_boot)  
+3.4. [Network Boot/Download](#net_boot)  
 3.5. [Create your own Debian image from scratch](#debian_from_scatch)  
 3.6. [Configuration current issues](#config_issues)  
 4. [Test the peripherals](#peripherals)  
@@ -100,9 +100,13 @@ Boot the Quantum with the EMMC_BOOT switch ON.
 The EMMC appears as a disc on windows that you have to select in the imager.  
 Switch back to OFF after programming.  
 
-### 3.4. Network Bootloader <a name="net_boot"></a>
+### 3.4. Network Boot/Download <a name="net_boot"></a>
 
-In development : [Doc](https://www.raspberrypi.com/news/network-install-beta-test-your-help-required/) [Video](https://www.youtube.com/watch?v=xjyQoIzLWac) [Advanced](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/raspberry-pi/boot-net.adoc) [Other](https://williamlam.com/2020/07/two-methods-to-network-boot-raspberry-pi-4.html) [Boot over PXE](https://hackaday.com/2019/11/11/network-booting-the-pi-4/)
+If you need to boot from a server or update remotely, a single or multiple Quantum, you will need a Network Bootloader.
+
+The Raspberry PI fundation [bootloader](https://www.raspberrypi.com/news/network-install-beta-test-your-help-required/) it is not suitable for a headless hardware. [More](https://github.com/raspberrypi/documentation/blob/develop/documentation/asciidoc/computers/raspberry-pi/boot-net.adoc)
+
+We recommend using [Pre-boot eXecution Environment](https://fr.wikipedia.org/wiki/Preboot_Execution_Environment) (PXE). [Video1](https://www.youtube.com/watch?v=YSyM_k1_QGM) - [Video2](https://www.youtube.com/watch?v=_usdzVv-vvk) - [Link1](https://hackaday.com/2019/11/11/network-booting-the-pi-4/) - [Link2](https://williamlam.com/2020/07/two-methods-to-network-boot-raspberry-pi-4.html)
 
 ### 3.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
@@ -119,13 +123,13 @@ See above
 **Configure the default image for the Quantum CM4 Platform:**
 
     ssh quantum@192.168.100.100
-The default password is : austral
+The default password is : pass
 
 On windows you can launch also install [putty](https://putty.org/) and create a .bat shortcut with :
 
-    putty.exe -ssh quantum@192.168.100.100 -pw austral
+    putty.exe -ssh quantum@192.168.100.100 -pw pass
 
-Or install [MobaXterm](https://mobaxterm.mobatek.net/download.html) very useful if you have many ssh sessions.
+For developers, we recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
 
 Verify the internet connection of the Quantum CM4 :
 
@@ -145,14 +149,13 @@ Operations realized by the script :
   * C/C++
   * [Qt5](https://www.qt.io/)
   * [Python3](https://www.python.org/about/)
-  * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
-  * [Node-Red](https://nodered.org/) (Low Code programming)
-  * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
-  * [Grafana](https://grafana.com/) (Operational dashboards)
-  * [Mosquitto](https://mosquitto.org/) (MQTT broker)
-  * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
-  * [Signal K](https://signalk.org/) (Open marine data standard)
-  * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
+  * [IZIoT suite] :(https://github.com/austral-electronics/wiki/wiki/Quantum-SDK)
+   * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
+   * [Node-Red](https://nodered.org/) (Low Code programming)
+   * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
+   * [Grafana](https://grafana.com/) (Operational dashboards)
+   * [Mosquitto](https://mosquitto.org/) (MQTT broker)
+   * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
 
 **Deployment : Shrink and backup the image:**
 
@@ -569,7 +572,9 @@ Minicom is a simple terminal usefull to scan serials
     
 ### 5.3 Protocols <a name="protocols"></a>
 
-[Lely CANOpen](https://opensource.lely.com/canopen/docs/installation/)
+  * [Lely CANOpen](https://opensource.lely.com/canopen/docs/installation/)
+  * [Signal K](https://signalk.org/) (Open marine data standard)
+  * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
     
 #### 5.4 Databases <a name="databases"></a>
 
