@@ -273,7 +273,7 @@ The default samba setting share the /home/quantum/git directory for development 
 We recommend adding a network drive 'Q' on Windows :
 >Address: \\\\AUSTRAL\quantum  
 >Login: quantum  
->password: austral
+>password: pass (default)
 
 To add or change a share directory:
  
@@ -290,7 +290,7 @@ Add at the end of smb.conf:
 
 Allow users to access share folders or change the default password:
 
-    sudo smbpasswd -a quantum    -> Default password : austral
+    sudo smbpasswd -a quantum    -> Default password : pass
 
 Restart service after smb.conf modifications :
 
