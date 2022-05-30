@@ -31,8 +31,9 @@ It is designed for low latency applications using remote in browser displays and
 3.1. [Download a Debian image](#download_debian)  
 3.2. [Program the Micro SD-CARD](#prog_sd)  
 3.3. [Program the EMMC](#prog_emmc)  
-3.4. [Create your own Debian image from scratch](#debian_from_scatch)  
-3.5. [Configuration current issues](#config_issues)  
+3.4. [Network Bootloader](#net_boot)  
+3.5. [Create your own Debian image from scratch](#debian_from_scatch)  
+3.6. [Configuration current issues](#config_issues)  
 4. [Test the peripherals](#peripherals)  
 4.1. [Get the system configuration](#get_conf)  
 4.2. [Change the system configuration](#change_conf)  
@@ -99,7 +100,11 @@ Boot the Quantum with the EMMC_BOOT switch ON.
 The EMMC appears as a disc on windows that you have to select in the imager.  
 Switch back to OFF after programming.  
 
-### 3.4. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
+### 3.4. Network Bootloader <a name="net_boot"></a>
+
+Soon : Doc [here](https://www.raspberrypi.com/news/network-install-beta-test-your-help-required/) or a [Video](https://www.youtube.com/watch?v=xjyQoIzLWac)
+
+### 3.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
 If you are not a Linux expert, the following example is the easiest way to create and deploy your own linux distribution with your applications pre-installed. You only need to customize a configuration script and somes settings (IP, password...).
 
@@ -168,7 +173,7 @@ Usage :
     
 You can backup / share this compressed image.
 
-### 3.5. Configuration current issues <a name="config_issues"></a>
+### 3.6. Configuration current issues <a name="config_issues"></a>
 #### I can't find my IP address
 By default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
