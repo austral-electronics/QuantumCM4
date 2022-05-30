@@ -120,6 +120,8 @@ On windows you can launch also install [putty](https://putty.org/) and create a 
 
     putty.exe -ssh quantum@192.168.100.100 -pw austral
 
+Or install [MobaXterm](https://mobaxterm.mobatek.net/download.html) very useful if you have many ssh sessions.
+
 Verify the internet connection of the Quantum CM4 :
 
     ping -q -c1 google.com &>/dev/null && echo online || echo offline
