@@ -146,16 +146,17 @@ Operations realized by the script :
 * Install and configure Samba
 * Configure Avahi (Bonjour/Zeroconf) for marine MFD Displays
 * On request, install and configure for real-time usual services or applications in embedded systems:
-  * C/C++
-  * [Qt5](https://www.qt.io/)
-  * [Python3](https://www.python.org/about/)
-  * [IZIoT suite] :(https://github.com/austral-electronics/wiki/wiki/Quantum-SDK)
-   * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
-   * [Node-Red](https://nodered.org/) (Low Code programming)
-   * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
-   * [Grafana](https://grafana.com/) (Operational dashboards)
-   * [Mosquitto](https://mosquitto.org/) (MQTT broker)
-   * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
+  * Dev Tools:
+    * C/C++
+    * [Qt5](https://www.qt.io/)
+    * [Python3](https://www.python.org/about/)
+  * [IZIoT suite](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK) :
+    * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
+    * [Node-Red](https://nodered.org/) (Low Code programming)
+    * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
+    * [Grafana](https://grafana.com/) (Operational dashboards)
+    * [Mosquitto](https://mosquitto.org/) (MQTT broker)
+    * [GPSD](https://gpsd.gitlab.io/gpsd/) (GNSS Time, GNSS To the net)
 
 **Deployment : Shrink and backup the image:**
 
