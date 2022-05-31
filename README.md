@@ -30,12 +30,12 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
   - **Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...  
   - **Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...  
 
+- ***Longevity** :* The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.
+
 - ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Black box, Machine monitoring, Energy Management, Building, boat and vehicle automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, HTML5 Multifunction Displays Dashboards, Voice Assistant, Asset tracking …*
 
-- ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
-
-- ***Longevity** : The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.*
+- ***Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …*
 
 ## Table of contents
 [Overview](#overview)
