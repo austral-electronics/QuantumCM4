@@ -24,7 +24,7 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
 - ***Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...*
 
 - ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
-It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, Multifunction displays (MFDs) & Web Dashboards, Voice Assistant, Asset tracking …*
+It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, HTML5 Multifunction displays (MFDs) & Web Dashboards, Voice Assistant, Asset tracking …*
 
 - ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
