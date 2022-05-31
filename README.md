@@ -14,9 +14,11 @@
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized and very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
-***Industrial and Marine communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...). **Optional IoT wireless** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... ([Contact us](http://austral-eng.com/contact/))*
+***Industrial, Marine & Robotic communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...). 
 
-***Multilanguage** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Node-Red, Rust, Java, Go...*
+**Optional IoT wireless** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... ([Contact us](http://austral-eng.com/contact/))*
+
+***Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Node-Red, Rust, Java, Go...*
 
 ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, Multifunction displays (MFDs) & Web Dashboards, Voice Assistant, Asset tracking …*
