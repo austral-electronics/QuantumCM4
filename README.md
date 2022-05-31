@@ -28,6 +28,8 @@ It is designed for low latency applications using remote in browser displays and
 
 ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
+***Longevity** : The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 to 4 years, and by being careful to remain compatible in hardware and software.
+
 ## Table of contents
 [Overview](#overview)
 1. [Hardware](#hardware)
