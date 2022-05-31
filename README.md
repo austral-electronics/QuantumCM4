@@ -15,9 +15,15 @@
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
-- ***Industrial, Marine & Robotic communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...).*
+- ***Many Field Interfaces** :*  
+  - Wireless : WIFI, Bluetooth, BLE
+  - Ethernet : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...
+  - 2xCANbus : NMEA2000, J1939, CANopen...
+  - 3xSerials : RS232, RS485, RS422, Modbus RTU, NMEA0183...
 
-- ***Optional Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... **Optional AI accelerator** : Hailo-8, Google Coral  ([Contact us](http://austral-eng.com/contact/))*
+- ***Optional internal expansion board** :*   [Contact us](http://austral-eng.com/contact/)  
+  - Global wireless IoT : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... 
+  - AI accelerator : Hailo-8, Google Coral... 
 
 - ***Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...*
 
