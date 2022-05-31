@@ -80,10 +80,10 @@ Launch a ssh console :
 The default password is : pass
 
 On windows, you can open a ssh console using : 
-* DOS : on the command prompt, type 'cmd'
+* DOS - On the command prompt, type 'cmd'
 * PowerShell
-* [MobaXterm Free](https://mobaxterm.mobatek.net/download.html) : recommend for developers (Automate password, File browser & Editor...).
-* [putty](https://putty.org/) and the create a .bat shortcut to automate the password : putty.exe -ssh quantum@192.168.100.100 -pw pass
+* [MobaXterm Free](https://mobaxterm.mobatek.net/download.html) - Automatic password entry, File browser & Editor, vnc...
+* [putty](https://putty.org/) - To automate the password entry, the create a .bat shortcut : putty.exe -ssh quantum@192.168.100.100 -pw pass
     
 Change the IP : [link](#eth)
 
