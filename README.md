@@ -549,7 +549,9 @@ Throttling removes turbo mode, which reduces core voltage, and sets arm and gpu 
 Capping just limits the arm frequency (somewhere between 600MHz and 1200MHz) to try to avoid throttling.
 If you are throttled and not under-voltage then you can assume over-temperature. (confirm with vcgencmd measure_temp).
 
-Note : Above 82 °C (180 °F), the clock frequency is automatically lowered, regardless of which flag is set. This action will reduce heat development. Once cooled down, the clock is restored to its original frequency.
+Notes : 
+* The CPU will reduce the clock rate to try and keep its internal temperature below 85°C. Once cooled down, the clock is restored to its original frequency.
+* Optimal RF Wireless performance is between -20°C and +75°C .
 
 You can view the 3 informations using a bash script :
 
