@@ -13,7 +13,7 @@
 
 ## Overview <a name="overview"></a>
 
-The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
+The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, lightweight, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
 - ***Many Field Interfaces** :*  
   - **Wireless** : WIFI, Bluetooth, BLE
