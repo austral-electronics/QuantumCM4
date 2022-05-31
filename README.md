@@ -8,12 +8,12 @@
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
-- **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes.
+- **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
 - **Develop at warp speed :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use [ezIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) to connect everything.  
 
 ## Overview <a name="overview"></a>
 
-The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, lightweight, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
+The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, lightweight, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
 - ***Many Field Interfaces** :*  
   - **Wireless** : WIFI, Bluetooth, BLE
