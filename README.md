@@ -17,7 +17,7 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
 
 ***Industrial, Marine & Robotic communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...).*
 
-***Optional Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... ([Contact us](http://austral-eng.com/contact/))*
+***Optional Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... **Optional AI accelerator** : Hailo-8, Google Coral  ([Contact us](http://austral-eng.com/contact/))*
 
 ***Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...*
 
