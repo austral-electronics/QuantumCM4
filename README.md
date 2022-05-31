@@ -8,7 +8,7 @@
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a **Raspberry PI 4** software compatible platform designed for professional use and suitable for real-time and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
-- **Easily adaptable :** Choose the memory, the storage, the WIFI option for a single unit. We can customize the extension board or the logo for very low volumes.
+- **adapted to your needs :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the extension board, put your logo or add functionality for very low volumes.
 - **Develop in minutes and accessible to all :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot in minutes. If it is suitable for your application, you can freely use [ezIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection).  
 
 ## Overview <a name="overview"></a>
