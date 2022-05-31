@@ -70,22 +70,24 @@ We recommend the use of a [Debian](https://www.debian.org/index.en.html) distrib
 [Usefull links for others Operatings Systems](#oos)
 
 ## 3. First connection <a name="connect_ssh"></a>
-Pre-installed Debian or configuration script settings :
+With the pre-installed Debian or the configuration script settings :
 
-Change the IP of your machine to 192.168.100.X
+Change the IP of your machine to 192.168.100.X  
+Power-up the Quantum and wait 20s for the end of the boot.  
+Launch a ssh console :
 
     ssh quantum@192.168.100.100
 The default password is : pass
 
-On windows you can launch also install [putty](https://putty.org/) and create a .bat shortcut with :
+On windows, you can open a ssh console using : 
+* DOS : on the command prompt, type 'cmd'
+* PowerShell
+* [MobaXterm Free](https://mobaxterm.mobatek.net/download.html) : recommend for developers (Automate password, File browser & Editor...).
+* [putty](https://putty.org/) and the create a .bat shortcut to automate the password : putty.exe -ssh quantum@192.168.100.100 -pw pass
+    
+Change the IP : [link](#eth)
 
-    putty.exe -ssh quantum@192.168.100.100 -pw pass
-
-For developers, we recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
-
-Change your IP : [link](#eth)
-
-Access to the samba share : [link](#samba)
+Access/Modify to the samba share : [link](#samba)
 
 ## 4. Install Debian <a name="debian"></a>
 In order to take advantage of the huge developer community on Raspberry PI, a great [documentation](https://www.raspberrypi.com/documentation/computers/os.html#introduction) and a Tier 3 support. The Quantum CM4 Processor is preinstalled with a [Debian Linux](https://www.debian.org/index.en.html) optimized by the Raspberry PI Foundation and configured for the Quantum CM4 hardware. The OS comes with over 35,000 packages: precompiled software bundled in a nice format for easy installation. You can reinstall Debian from scratch by following this procedure.  
