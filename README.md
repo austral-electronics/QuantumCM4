@@ -15,20 +15,20 @@
 
 The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system.
 
-***Industrial, Marine & Robotic communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...).*
+- ***Industrial, Marine & Robotic communication** : WIFI, Bluetooth, BLE, Ethernet (Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP...), 2xCANbus (NMEA2000, J1939, CANopen...), 3xSerials (RS232, RS485, RS422, Modbus RTU, NMEA0183...).*
 
-***Optional Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... **Optional AI accelerator** : Hailo-8, Google Coral  ([Contact us](http://austral-eng.com/contact/))*
+- ***Optional Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... **Optional AI accelerator** : Hailo-8, Google Coral  ([Contact us](http://austral-eng.com/contact/))*
 
-***Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...*
+- ***Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...*
 
-***Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...*
+- ***Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...*
 
-***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
+- ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Machine monitoring, Energy Management, Building and boat automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, Multifunction displays (MFDs) & Web Dashboards, Voice Assistant, Asset tracking …*
 
-***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
+- ***Sectors** : Marine, Industry, Drones, Robotics, Off-Highway Vehicles, Agriculture …*
 
-***Longevity** : The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 to 4 years, and by being careful to remain compatible in hardware and software.*
+- ***Longevity** : The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.*
 
 ## Table of contents
 [Overview](#overview)
