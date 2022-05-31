@@ -27,34 +27,35 @@ It is designed for low latency applications using remote in browser displays and
 [Overview](#overview)
 1. [Hardware](#hardware)
 2. [Operating system](#os)
-3. [Install Debian](#debian)  
-3.1. [Download a Debian image](#download_debian)  
-3.2. [Program the Micro SD-CARD](#prog_sd)  
-3.3. [Program the EMMC](#prog_emmc)  
-3.4. [Network Boot/Download](#net_boot)  
-3.5. [Create your own Debian image from scratch](#debian_from_scatch)  
-3.6. [Configuration current issues](#config_issues)  
-4. [Test the peripherals](#peripherals)  
-4.1. [Get the system configuration](#get_conf)  
-4.2. [Change the system configuration](#change_conf)  
-4.3. [Ethernet](#eth)  
-4.4. [Wifi](#wifi)  
-4.5. [Samba file server](#samba)  
-4.6. [Serials](#serials)  
-4.7. [CANbus](#canbus)  
-4.8. [Real Time Clock](#rtc)  
-4.9. [Logo backlight](#led)  
-4.10. [Bluetooth](#ble)  
-4.11. [Watchdog](#wd)  
-4.12. [Optional PWM](#pwm)  
-4.13. [Thermal Stress Test](#thermal)
-5. [Applications](#applications)  
-5.1. [Remove Applications](#rem_app)  
-5.2. [Tools](#tools)  
-5.3. [Protocols](#protocols)  
-5.4. [Databases](#databases)  
-6. [Others Operating Systems Links](#oos)  
-7.   [Disclaimers](#disclamers)
+3. [First connection](#connect_ssh)
+4. [Install Debian](#debian)  
+4.1. [Download a Debian image](#download_debian)  
+4.2. [Program the Micro SD-CARD](#prog_sd)  
+4.3. [Program the EMMC](#prog_emmc)  
+4.4. [Network Boot/Download](#net_boot)  
+5.5. [Create your own Debian image from scratch](#debian_from_scatch)  
+5.6. [Configuration current issues](#config_issues)  
+5. [Test the peripherals](#peripherals)  
+5.1. [Get the system configuration](#get_conf)  
+5.2. [Change the system configuration](#change_conf)  
+5.3. [Ethernet](#eth)  
+5.4. [Wifi](#wifi)  
+5.5. [Samba file server](#samba)  
+5.6. [Serials](#serials)  
+5.7. [CANbus](#canbus)  
+5.8. [Real Time Clock](#rtc)  
+5.9. [Logo backlight](#led)  
+5.10. [Bluetooth](#ble)  
+5.11. [Watchdog](#wd)  
+5.12. [Optional PWM](#pwm)  
+5.13. [Thermal Stress Test](#thermal)
+6. [Applications](#applications)  
+6.1. [Remove Applications](#rem_app)  
+6.2. [Tools](#tools)  
+6.3. [Protocols](#protocols)  
+6.4. [Databases](#databases)  
+7. [Others Operating Systems Links](#oos)  
+8.   [Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
 
@@ -68,7 +69,25 @@ We recommend the use of a [Debian](https://www.debian.org/index.en.html) distrib
 
 [Usefull links for others Operatings Systems](#oos)
 
-## 3. Install Debian <a name="debian"></a>
+## 3. First connection <a name="connect_ssh"></a>
+Pre-installed Debian or configuration script settings :
+
+Change the IP of your machine to 192.168.100.X
+
+    ssh quantum@192.168.100.100
+The default password is : pass
+
+On windows you can launch also install [putty](https://putty.org/) and create a .bat shortcut with :
+
+    putty.exe -ssh quantum@192.168.100.100 -pw pass
+
+For developers, we recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
+
+Change your IP : [link](#eth)
+
+Access to the samba share : [link](#samba)
+
+## 4. Install Debian <a name="debian"></a>
 In order to take advantage of the huge developer community on Raspberry PI, a great [documentation](https://www.raspberrypi.com/documentation/computers/os.html#introduction) and a Tier 3 support. The Quantum CM4 Processor is preinstalled with a [Debian Linux](https://www.debian.org/index.en.html) optimized by the Raspberry PI Foundation and configured for the Quantum CM4 hardware. The OS comes with over 35,000 packages: precompiled software bundled in a nice format for easy installation. You can reinstall Debian from scratch by following this procedure.  
 Debian Long Term Support (LTS) is a project to extend the lifetime of all Debian stable releases to (at least) 5 years.  
 The choice of the version depends on the deployment date of your system.  
@@ -76,13 +95,13 @@ The choice of the version depends on the deployment date of your system.
 * Debian 10 “Buster”      July, 2022 to June, 2024
 * Debian 11 “Bullseye”    July, 2024 to June, 2026
 
-### 3.1. Download a Debian image <a name="download_debian"></a>
+### 4.1. Download a Debian image <a name="download_debian"></a>
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, Ready-to-use (Rolling Release) : (coming soon)
 * Debian 10 "Buster" Headless PREEMPT-RT, Ready-to-use (LTS) : (coming soon)
 * Debian 11.3 "Bullseye" Headless PREEMPT-RT, to configure (Rolling Release) : [here](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Debian 10 "Buster" Headless PREEMPT-RT, to configure (LTS) : [here](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/)
 
-### 3.2. Program the Micro SD-CARD  <a name="prog_sd"></a>
+### 4.2. Program the Micro SD-CARD  <a name="prog_sd"></a>
 * [Install the Imager, version >=1.7.2](https://downloads.raspberrypi.org/imager/)
 * [Download the .xz image of Debian 11.3 "Bulleye"](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2022-04-07/)
 * Insert a Micro SD-Card in an USB3.0 Card Reader
@@ -92,7 +111,7 @@ The choice of the version depends on the deployment date of your system.
 * Click on the gear icon to configure to the Advanced Options  
 
 ![Advanced Options](/images/AdvancedOptions.png)
-### 3.3. Program the EMMC <a name="prog_emmc"></a>
+### 4.3. Program the EMMC <a name="prog_emmc"></a>
 If you have a Quantum version EMMC and not micro SD-card, the procedure is slightly different.  
 On windows, install [rpiboot](https://github.com/raspberrypi/usbboot/raw/master/win32/rpiboot_setup.exe)  
 Connect the Quantum to Windows using a USB cable connected to the USB Slave port.  
@@ -100,7 +119,7 @@ Boot the Quantum with the EMMC_BOOT switch ON.
 The EMMC appears as a disc on windows that you have to select in the imager.  
 Switch back to OFF after programming.  
 
-### 3.4. Network Boot/Download <a name="net_boot"></a>
+### 4.4. Network Boot/Download <a name="net_boot"></a>
 
 If you need to boot from a server or update remotely, a single or multiple Quantum, you will need a Network Bootloader.
 
@@ -108,7 +127,7 @@ The Raspberry PI fundation [bootloader](https://www.raspberrypi.com/news/network
 
 We recommend using [Pre-boot eXecution Environment](https://fr.wikipedia.org/wiki/Preboot_Execution_Environment) (PXE). [Video1](https://www.youtube.com/watch?v=YSyM_k1_QGM) - [Video2](https://www.youtube.com/watch?v=_usdzVv-vvk) - [Link1](https://hackaday.com/2019/11/11/network-booting-the-pi-4/) - [Link2](https://williamlam.com/2020/07/two-methods-to-network-boot-raspberry-pi-4.html)
 
-### 3.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
+### 4.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
 If you are not a Linux expert, the following example is the easiest way to create and deploy your own linux distribution with your applications pre-installed. You only need to customize a configuration script and somes settings (IP, password...).
 
@@ -121,15 +140,6 @@ If you are not a Linux expert, the following example is the easiest way to creat
 See above
 
 **Configure the default image for the Quantum CM4 Platform:**
-
-    ssh quantum@192.168.100.100
-The default password is : pass
-
-On windows you can launch also install [putty](https://putty.org/) and create a .bat shortcut with :
-
-    putty.exe -ssh quantum@192.168.100.100 -pw pass
-
-For developers, we recommend [MobaXterm](https://mobaxterm.mobatek.net/download.html).
 
 Verify the internet connection of the Quantum CM4 :
 
@@ -177,7 +187,7 @@ Usage :
     
 You can backup / share this compressed image.
 
-### 3.6. Configuration current issues <a name="config_issues"></a>
+### 4.6. Configuration current issues <a name="config_issues"></a>
 #### I can't find my IP address
 By default the ip address is static and is 192.168.100.100, if you have modified and lost the IP Address :
 
@@ -208,8 +218,8 @@ Launch nmap to scan all DHCP ip addresses
     
     wget https://raw.github.com/austral-electronics/QuantumCM4/main/script/clean_script.sh -O - | bash
 
-## 4. TEST THE PERIPHERALS <a name="peripherals"></a>   
-### 4.1. Get the system configuration <a name="get_conf"></a>
+## 5. TEST THE PERIPHERALS <a name="peripherals"></a>   
+### 5.1. Get the system configuration <a name="get_conf"></a>
 
 Linux :
 
@@ -237,14 +247,14 @@ Cores :
  
      dmesg                      -> View the system Log
 
-### 4.2. Change the system configuration <a name="change_conf"></a>
+### 5.2. Change the system configuration <a name="change_conf"></a>
     sudo raspi-config
     
 Enable/Disable a config in command line [here](https://pi3g.com/fr/2021/05/20/enabling-and-checking-i2c-on-the-raspberry-pi-using-the-command-line-for-your-own-scripts/)
     
 [Documentation](https://www.raspberrypi.com/documentation/computers/configuration.html)
     
-### 4.3. Ethernet <a name="eth"></a>
+### 5.3. Ethernet <a name="eth"></a>
 by default the ip address is static and is 192.168.100.100
 
 To change IP :
@@ -261,7 +271,7 @@ To use DHCP :
     #interface eth0
     #static ip_address=192.168.100.100/24
 
-### 4.4. Wifi <a name="wifi"></a>
+### 5.4. Wifi <a name="wifi"></a>
 To get the wifi IP address:
 
     ipconfig
@@ -269,7 +279,7 @@ To get the wifi IP address:
 To get the access point status:
 
     iwconfig
-### 4.5. Samba file server <a name="samba"></a>
+### 5.5. Samba file server <a name="samba"></a>
 
 The default samba setting share the /home/quantum/git directory for development purposes.
 
@@ -315,7 +325,7 @@ The default smb.conf is set for the WORKGROUP domain, to get the windows domain 
 
     net config workstation
 
-### 4.6. Serials <a name="serials"></a>
+### 5.6. Serials <a name="serials"></a>
 
 Pinouts :
 
@@ -396,7 +406,7 @@ For debug purposes, you can activate/desactivate a debug console with
 
 Interface Options ->  Serial Port -> Shell accessible over serial -> Yes
 
-### 4.7. CANbus <a name="canbus"></a>
+### 5.7. CANbus <a name="canbus"></a>
 Verify the configuration :
 
      ifconfig
@@ -437,7 +447,7 @@ Transmit sentences test :
     
 Pthon example : https://www.waveshare.com/wiki/2-CH_CAN_HAT#.E3.80.90Python_example.E3.80.91
 
-### 4.8. Real Time Clock <a name="rtc"></a>
+### 5.8. Real Time Clock <a name="rtc"></a>
 To verify the RTC chip response on I2C bus :
  
     sudo i2cdetect -y 1
@@ -451,7 +461,7 @@ To program the RTC :
     sudo hwclock -w
     sudo hwclock -r
 
-### 4.9. Logo backlight <a name="led"></a>
+### 5.9. Logo backlight <a name="led"></a>
 
 To test the LED :
 
@@ -465,7 +475,7 @@ To test the LED :
     #led OFF
     echo "0" > /sys/class/gpio/gpio27/value
     
-### 4.10. Bluetooth <a name="ble"></a>
+### 5.10. Bluetooth <a name="ble"></a>
 
 Bluetooth allows you to connect a GNSS, a Remote control... to the Quantum CM4 or transform it to a voice assistant.  
 [How to](https://howchoo.com/pi/bluetooth-raspberry-pi#setting-up-bluetooth-using-a-terminal-or-ssh-connection)
@@ -481,7 +491,7 @@ Bluetooth allows you to connect a GNSS, a Remote control... to the Quantum CM4 o
 ### 4.7 Templates
 -->
 
-### 4.11. Watchdog and OverTemperature <a name="wd"></a>
+### 5.11. Watchdog and OverTemperature <a name="wd"></a>
 
 Tutorial : https://medium.com/@arslion/enabling-watchdog-on-raspberry-pi-b7e574dcba6b
 
@@ -494,14 +504,14 @@ Start the service :
 
     sudo systemctl start watchdog
     
-### 4.12. Optional PWM <a name="pwm"></a>
+### 5.12. Optional PWM <a name="pwm"></a>
 
 COM3-TXD (TXD5) output may be use as PWM0 (PIN 6 of the M12 connector).  
 Note: With a factory hardware modification PWM0 can also replace PWR-OUT on the PIN5 of the M12 connector.
 
 Contact us for more information.
 
-### 4.13. Thermal Stress Test <a name="thermal"></a>
+### 5.13. Thermal Stress Test <a name="thermal"></a>
 
 If your installation does not follow the recommendations (bare boards, flat mounting...), you must do a thermal test under load.
 
@@ -556,8 +566,8 @@ You can also lauch a python script to log a long test in a csv file :
         log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(cpu.temperature)))
         sleep(1)
     
-## 5. Applications<a name="applications"></a> 
-### 5.1. Remove Applications <a name="rem_app"></a>
+## 6. Applications<a name="applications"></a> 
+### 6.1. Remove Applications <a name="rem_app"></a>
 Remove applications you installed with apt-get with:
 
     sudo apt-get –purge remove APPNAME    (replace APPNAME with the name of the app you want to remove)
@@ -566,23 +576,23 @@ To remove possible application orphans:
 
     sudo apt-get autoremove –purge
 
-### 5.2. Tools <a name="tools"></a>
+### 6.2. Tools <a name="tools"></a>
 Minicom is a simple terminal usefull to scan serials
 
     sudo apt update -y
     sudo apt install minicom -y
     sudo minicom -D /dev/ttyS0
     
-### 5.3 Protocols <a name="protocols"></a>
+### 6.3 Protocols <a name="protocols"></a>
 
   * [Lely CANOpen](https://opensource.lely.com/canopen/docs/installation/)
   * [Signal K](https://signalk.org/) (Open marine data standard)
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
     
-#### 5.4 Databases <a name="databases"></a>
+#### 6.4 Databases <a name="databases"></a>
 
 [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone) (Optimized for Geo Time Series)
-## 6. Others Operating systems links<a name="oos"></a>
+## 7. Others Operating systems links<a name="oos"></a>
 
 [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
 [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
