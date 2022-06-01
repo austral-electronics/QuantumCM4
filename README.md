@@ -6,7 +6,7 @@
 
 # Quantum CM4 OEM - Rugged Mission Computer / IoT Gateway
 
-- **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time and browser-based remote displays.  
+- **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time applications and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
 - **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
 - **Develop at warp speed :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use [ezIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) to connect everything.  
@@ -20,7 +20,7 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
   - **Ethernet** : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...
   - **2xCANbus** : NMEA2000, J1939, CANopen...
   - **3xSerials** : RS232, RS485, RS422, Modbus RTU, NMEA0183...
-  - **Internal expansion slot** : USB2.0, SPI, GPIOs
+  - **Internal mini PCIe expansion slot** : USB2.0, SPI, GPIOs
 
 - ***Hardware expansion flexibility** :*   [Contact us](http://austral-eng.com/contact/)  
   - **Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... 
@@ -32,13 +32,16 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
 
 - ***Longevity** :* The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.
 
-- ***Applications** : The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, a wet basement, an outdoor gateway …
+## Applications <a name="applications"></a>
+
+The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor and underground platforms …  
 It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Black box, Machine monitoring, Energy Management, Building, boat and vehicle automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, HTML5 Multifunction Displays Dashboards, Voice Assistant, Asset tracking …*
 
 - ***Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …*
 
 ## Table of contents
 [Overview](#overview)
+[Applications](#applications)
 1. [Hardware](#hardware)
 2. [Operating system](#os)
 3. [First connection](#connect_ssh)
