@@ -1,7 +1,11 @@
-*Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles - [www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/)*
-
+<!---*[www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/) - Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles*-->
 # Quantum CM4 OEM - Rugged Mission Computer / IoT Gateway
+<!---
 ![QuantumUltima](/images/Quantum_CM4_OEM.png)*Your data here, there, or anywhere*  
+-->
+*Your data here, there, or anywhere* - 
+<img src="/images/Quantum_CM4_OEM.png" width=200 align=right>
+*[www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/) - Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles*
 
 <table border="0">
  <tr>
