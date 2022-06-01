@@ -85,8 +85,8 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 ## Table of contents
 <!--- 
 [Overview](#overview)  
--->
 [Applications](#applications)  
+-->
 1. [Hardware](#hardware)
 2. [Operating system](#os)
 3. [First connection](#connect_ssh)
