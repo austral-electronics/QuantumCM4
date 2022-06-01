@@ -6,6 +6,22 @@
 
 # Quantum CM4 OEM - Rugged Mission Computer / IoT Gateway
 
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Key Features</b></td>
+    <td><b style="font-size:30px">Go Fast Programming</b></td>
+ </tr>
+ <tr>
+    <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.</td>
+    <td><ul>
+     <li><b>Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% compatible with the Raspberry Pi Ecosystem</b> and designed for professional use and suitable for real-time applications and browser-based remote displays.</li>
+     <li><b>Shrink your team and schedule :</b> Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.</li>
+     <li><b>Hardware flexibility :</b> Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).</li>
+     <li><b>Develop at warp speed :</b> Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-SDK">ezIoT SDK</a>, our fast system integration solution based on <a href="https://nodered.org/">Node-RED</a> visual flow creator, which offers you a library of nearly 4000 <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection">nodes</a> to connect everything</li>
+    </ul></td>
+ </tr>
+</table>
+
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time applications and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
 - **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
@@ -36,7 +52,7 @@ The **Quantum CM4 is a SWaP platform : Industrial with a wide temperature range,
 
 ## Applications <a name="applications"></a>
 
-The Quantum CM4 OEM is designed for ITAR-free, SWaP-sensitive and real-time applications using remote HMI, and to be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
+The Quantum CM4 OEM is designed for **ITAR-free, SWaP-sensitive and real-time applications using remote HMI**. It will be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
 - Interfacing sensors, actuators and PLCs
 - Data collection, Black box
 - Marine IOT, IIOT, Cloud
