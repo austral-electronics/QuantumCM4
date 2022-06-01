@@ -9,10 +9,22 @@
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Key Features</b></td>
-    <td><b style="font-size:30px">Go Fast Programming</b></td>
+    <td><b style="font-size:30px">Go Fast</b></td>
  </tr>
  <tr>
-    <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.</td>
+    <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
+      <li><b>Field Interfaces :</b> <ul>
+       <li><b>M12 Connectors</b> : Cables available on the shelf</li>
+       <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
+       <li><b>Ethernet</b> : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...</li>
+       <li><b>2xCANbus</b> : NMEA2000, J1939, CANopen...</li>
+       <li><b></b> : </li>
+       <li><b></b> : </li>
+       <li><b></b> : </li>
+       <li>2</li>
+      </ul></li>
+      <li>B :</li>
+    </ul></td>
     <td><ul>
      <li><b>Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% compatible with the Raspberry Pi Ecosystem</b> and designed for professional use and suitable for real-time applications and browser-based remote displays.</li>
      <li><b>Shrink your team and schedule :</b> Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.</li>
