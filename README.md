@@ -7,16 +7,17 @@
 # Quantum CM4 OEM - Rugged Mission Computer / IoT Gateway
 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time applications and browser-based remote displays.  
-- **Shrink your team and schedule :** Focus on your core business by using a proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
+- **Shrink your team and schedule :** Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
 - **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
 - **Develop at warp speed :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use [ezIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) to connect everything.  
 
 ## Overview <a name="overview"></a>
 
-The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, lightweight, with a wide temperature range and a very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
+The **Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion**. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.
 
-- ***Many Field Interfaces** :*  
-  - **Wireless** : WIFI, Bluetooth, BLE
+- ***Field Interfaces** :*  
+  - **M12 Connectors** : Cables available on the shelf
+  - **Wireless** : WIFI, Bluetooth, BLE 
   - **Ethernet** : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...
   - **2xCANbus** : NMEA2000, J1939, CANopen...
   - **3xSerials** : RS232, RS485, RS422, Modbus RTU, NMEA0183...
@@ -26,22 +27,32 @@ The **Quantum CM4 is a waterproof industrial platform, marinized, miniaturized, 
   - **Global wireless IoT** : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, [SpaceX Swarm](https://swarm.space/), [Kineis](https://www.kineis.com/en/)... 
   - **AI accelerator** : Hailo-8, Google Coral... 
 
-- ***Easy software installation and support** :*
-  - **Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...  
-  - **Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...  
+- ***Easy software installation and the support of the community** :*
+  - **Any OS** : Linux (Pre-installed), VxWorks, Windows IoT...
+  - **Any frameworks** : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...
+  - **Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...   
 
-- ***Longevity** :* The internal CPU Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.
+- ***Longevity** :* The internal CM4 Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.
 
 ## Applications <a name="applications"></a>
 
-The Quantum CM4 Processor is designed to be embedded into a third-party system in a harsh environment, like a boat, a vehicle, a drone, a machine, an outdoor and underground platforms …  
-It is designed for low latency applications using remote in browser displays and suitable for a variety of use cases : Interfacing sensors, actuators and PLCs, Data collection, Black box, Machine monitoring, Energy Management, Building, boat and vehicle automation, Security systems, climate control, command control, Robotics, Guidance, Marine IOT, IIOT, IA, Cloud, HTML5 Multifunction Displays Dashboards, Voice Assistant, Asset tracking …*
+The Quantum CM4 OEM is designed for SWaP-sensitive and real-time applications using remote HMI, and to be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
+- Interfacing sensors, actuators and PLCs
+- Data collection, Black box
+- Marine IOT, IIOT, Cloud
+- Robotics, Command control, Guidance
+- Machine monitoring, Energy Management
+- Building, boat and vehicle automation, Security systems, climate control
+- HTML5 Multifunction Displays Dashboards
+- IA
+- Voice Assistant
+- Asset tracking
 
-- ***Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …*
+**Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …
 
 ## Table of contents
-[Overview](#overview)
-[Applications](#applications)
+[Overview](#overview)  
+[Applications](#applications)  
 1. [Hardware](#hardware)
 2. [Operating system](#os)
 3. [First connection](#connect_ssh)
@@ -82,7 +93,7 @@ It is designed for low latency applications using remote in browser displays and
 
 ## 2. Operating system <a name="os"></a>
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
-We recommend the use of a [Debian](https://www.debian.org/index.en.html) distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, [Redpesk Marine Grade Linux](https://docs.redpesk.bzh/docs/en/master/getting_started/docs/overview.html), [Victron Energy Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image#supported-platforms), [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi), Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
+We recommend the use of a [Debian](https://www.debian.org/index.en.html) distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, Vxworks, [Redpesk Marine Grade Linux](https://docs.redpesk.bzh/docs/en/master/getting_started/docs/overview.html), [Victron Energy Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image#supported-platforms), [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi), Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
 [Usefull links for others Operatings Systems](#oos)
 
