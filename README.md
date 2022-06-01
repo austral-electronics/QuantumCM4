@@ -36,7 +36,7 @@ The **Quantum CM4 is a SWaP platform : Industrial with a wide temperature range,
 
 ## Applications <a name="applications"></a>
 
-The Quantum CM4 OEM is designed for SWaP-sensitive and real-time applications using remote HMI, and to be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
+The Quantum CM4 OEM is designed for ITAR-free, SWaP-sensitive and real-time applications using remote HMI, and to be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
 - Interfacing sensors, actuators and PLCs
 - Data collection, Black box
 - Marine IOT, IIOT, Cloud
