@@ -14,16 +14,22 @@
  <tr>
     <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
       <li><b>Field Interfaces :</b> <ul>
-       <li><b>M12 Connectors</b> : Cables available on the shelf</li>
-       <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
-       <li><b>Ethernet</b> : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...</li>
-       <li><b>2xCANbus</b> : NMEA2000, J1939, CANopen...</li>
-       <li><b></b> : </li>
-       <li><b></b> : </li>
-       <li><b></b> : </li>
-       <li>2</li>
+        <li><b>M12 Connectors</b> : Cables available on the shelf</li>
+        <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
+        <li><b>Ethernet</b> : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...</li>
+        <li><b>2xCANbus</b> : NMEA2000, J1939, CANopen...</li>
+        <li><b>3xSerials</b> : RS232, RS485, RS422, Modbus RTU, NMEA0183...</li>
+        <li><b>Internal mini PCIe expansion slot</b> : USB2.0, SPI, GPIOs</li>
       </ul></li>
-      <li>B :</li>
+      <li><b>Hardware expansion flexibility :</b> <a href="http://austral-eng.com/contact">Contact us</a><ul>
+        <li><b>Global wireless IoT</b> : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, <a href="https://swarm.space/">SpaceX Swarm</a>, <a href="https://www.kineis.com/en/">Kineis</a>...</li>
+        <li><b>AI accelerator</b> : Hailo-8, Google Coral...</li>
+      </ul></li>
+      <li><b>Easy software installation and the support of the community</b> :<ul>
+        <li><b>Any OS</b> : Linux (Pre-installed), VxWorks, Windows IoT...</li>
+        <li><b>Any frameworks</b> : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...</li>
+        <li><b>Any languages</b> : C/C++/Qt, Python, JS, Rust, Java, C#, Go...</li>
+      </ul></li>        
     </ul></td>
     <td><ul>
      <li><b>Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% compatible with the Raspberry Pi Ecosystem</b> and designed for professional use and suitable for real-time applications and browser-based remote displays.</li>
@@ -34,6 +40,7 @@
  </tr>
 </table>
 
+<!--- 
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time applications and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
 - **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
@@ -61,7 +68,7 @@ The **Quantum CM4 is a SWaP platform : Industrial with a wide temperature range,
   - **Any languages** : Pre-installed C/C++/Qt, Python. Easy installation of NodeJS, Rust, Java, C#, Go...   
 
 - ***Longevity** :* The internal CM4 Module will remain in production until at least January 2028. The phylosophy of the Raspberry PI foundation is to follow the technology by making its models evolve every 3 years, and by being careful to remain compatible in hardware and software.
-
+-->
 ## Applications <a name="applications"></a>
 
 The Quantum CM4 OEM is designed for **ITAR-free, SWaP-sensitive and real-time applications using remote HMI**. It will be embedded into a third-party system in a harsh environment, like wearable edge computing, boats, vehicles, drones, machines, outdoor and underground platforms… and for a wide range of use cases:
@@ -79,7 +86,9 @@ The Quantum CM4 OEM is designed for **ITAR-free, SWaP-sensitive and real-time ap
 **Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …
 
 ## Table of contents
+<!--- 
 [Overview](#overview)  
+-->
 [Applications](#applications)  
 1. [Hardware](#hardware)
 2. [Operating system](#os)
