@@ -71,13 +71,10 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 - Interfacing sensors, actuators and PLCs
 - Data collection, Black box
 - Marine IOT, IIOT, Cloud
-- Robotics, Command control, Guidance
-- Machine monitoring, Energy Management
-- Building, boat and vehicle automation, Security systems, climate control
-- HTML5 Multifunction Displays Dashboards
-- IA
-- Voice Assistant
-- Asset tracking
+- IA, Robotics, Command control, Guidance
+- Asset tracking, Machine monitoring, Energy Management
+- Building, boat and vehicle automation, Security systems, Climate control
+- HTML5 Multifunction Displays Dashboards, Voice Assistant
 
 **Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …
 
