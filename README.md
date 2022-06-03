@@ -1,6 +1,6 @@
 # Quantum CM4 OEM - Rugged Mission Computer / IoT Gateway
 *[www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/) - Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles*  
-![QuantumUltima](/images/Quantum_CM4_OEM.png)
+![QuantumUltima](/images/Quantum_CM4_OEM_Price.png)
 
 <table border="0">
  <tr>
