@@ -78,6 +78,8 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 
 **Sectors** : Marine, Industry 4.0, Drones, Robotics, Off-Highway Vehicles, Smart Farming …
 
+**Pricing & Ordering** : [Link to Austral Electronics page](http://austral-eng.com/en/quantum-cm4-oem-en/)
+
 ## Table of contents
 <!--- 
 [Overview](#overview)  
