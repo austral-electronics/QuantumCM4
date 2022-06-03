@@ -31,7 +31,7 @@
      <li><b>Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% COMPATIBLE WITH THE RASPBERRY PI ECOSYSTEM</b>, designed for professional use, suitable for real-time applications and browser-based remote displays.</li>
      <li><b>Shrink your team and schedule :</b> Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.</li>
      <li><b>Hardware flexibility :</b> Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).</li>
-     <li><b>Develop at warp speed :</b> Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-SDK">ezIoT SDK</a>, our fast system integration solution based on <a href="https://nodered.org/">Node-RED</a> visual flow creator, which offers you a library of nearly 4000 <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection">nodes</a> to connect everything</li>
+     <li><b>Develop at warp speed :</b> Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-SDK">Red Carpet IoT SDK</a>, our fast system integration solution based on <a href="https://nodered.org/">Node-RED</a> visual flow creator, which offers you a library of nearly 4000 <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection">nodes</a> to connect everything</li>
     </ul></td>
  </tr>
 </table>
@@ -40,7 +40,7 @@
 - **Makes it as easy as possible to build your next smart project operating in hostile environment** with a solution **100% compatible with the Raspberry Pi Ecosystem** and designed for professional use and suitable for real-time applications and browser-based remote displays.  
 - **Shrink your team and schedule :** Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.  
 - **Hardware flexibility :** Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).
-- **Develop at warp speed :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use [ezIoT SDK](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) to connect everything.  
+- **Develop at warp speed :** Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use [Red Carpet - IoT Software Suite](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK), our fast system integration solution based on [Node-RED](https://nodered.org/) visual flow creator, which offers you a library of nearly 4000 [nodes](https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection) to connect everything.  
 
 ## Overview <a name="overview"></a>
 
@@ -220,7 +220,7 @@ Operations realized by the script :
     * C/C++
     * [Qt5](https://www.qt.io/)
     * [Python3](https://www.python.org/about/)
-  * [ezIoT suite](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK) :
+  * [Red Carpet - IoT Software Suite](https://github.com/austral-electronics/wiki/wiki/Quantum-SDK) :
     * [Node.JS](https://nodejs.org/en/about/) (Asynchronous event-driven JavaScript runtime)
     * [Node-Red](https://nodered.org/) (Low Code programming)
     * [InfluxDB](https://www.influxdata.com/products/influxdb-overview/) (Time Series Database)
