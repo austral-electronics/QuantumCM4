@@ -18,7 +18,7 @@
         <li><b>3xSerials</b> : RS232, RS485, RS422, Modbus RTU, NMEA0183...</li>
         <li><b>Internal mini PCIe expansion slot</b> : USB2.0, SPI, GPIOs</li>
       </ul></li>
-      <li><b>Hardware expansion flexibility :</b> <a href="http://austral-eng.com/contact">Contact us</a><ul>
+      <li><b>Hardware expansion flexibility :</b> <a href="mailto:contact@austral-eng.com">Contact us</a><ul>
         <li><b>Global wireless IoT</b> : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, <a href="https://swarm.space/">SpaceX Swarm</a>, <a href="https://www.kineis.com/en/">Kineis</a>...</li>
         <li><b>AI accelerator</b> : Hailo-8, Google Coral...</li>
       </ul></li>
