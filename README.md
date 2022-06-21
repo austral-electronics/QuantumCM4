@@ -662,7 +662,7 @@ Minicom is a simple terminal usefull to scan serials
 
   * [CoDeSys](https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0) (Leading IEC 61131-3 development system in factory automation with powerful functions for fieldbus configuration, visualization, motion control and safety.)
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
-  * [moss-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
+  * [Moos-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
   * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (Low-code programming for event-driven applications for IoT)
   * [TensorFlow Install](https://qengineering.eu/install-tensorflow-2.7-on-raspberry-64-os.html) / [Versions](https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit) (AI)
   * [PyTorch](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) (AI)
