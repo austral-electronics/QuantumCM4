@@ -11,7 +11,7 @@
  <tr>
     <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
       <li><b>Field Interfaces :</b> <ul>
-        <li><b>M12 Connectors</b> : Cables available on the shelf</li>
+        <li><b>M12 Connectors</b> : Cables available on the shelf (Profinet, NMEA2000, DeviceNet, CANopen standards cables)</li>
         <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
         <li><b>Ethernet</b> : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...</li>
         <li><b>2xCANbus</b> : NMEA2000, J1939, CANopen...</li>
