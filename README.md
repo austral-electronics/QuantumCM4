@@ -11,7 +11,7 @@
  <tr>
     <td>The <b>Quantum CM4 is a SWaP platform : Industrial with a wide temperature range, marinized IP67, miniaturized and very lightweight, very low power consumtion</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
       <li><b>Field Interfaces :</b> <ul>
-        <li><b>M12 Connectors</b> : Cables available on the shelf (Profinet, NMEA2000, DeviceNet, CANopen standards cables)</li>
+        <li><b>M12 Connectors</b> : Cables available on the shelf (Profinet, NMEA2000/DeviceNet/CANopen... standards cables)</li>
         <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
         <li><b>Ethernet</b> : Modbus TCP, Profinet, ETherNet/IP, BACnet, OPC-UA, MQTT, DDS, Websocket, ZMQ, UDP, TCP, NMEA OneNet...</li>
         <li><b>2xCANbus</b> : NMEA2000, J1939, CANopen...</li>
@@ -23,7 +23,7 @@
         <li><b>AI accelerator</b> : Hailo-8, Google Coral...</li>
       </ul></li>
       <li><b>Easy software installation and the support of the community</b> :<ul>
-        <li><b>Any OS</b> : Linux (Pre-installed), VxWorks, Windows IoT...</li>
+        <li><b>Any OS</b> : Linux (Pre-installed), VxWorks ...</li>
         <li><b>Any frameworks</b> : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...</li>
         <li><b>Any languages</b> : C/C++/Qt, Python, JS, Rust, Java, C#, Go...</li>
       </ul></li>        
@@ -661,11 +661,16 @@ Minicom is a simple terminal usefull to scan serials
 ### 6.5 Install Frameworks <a name="frameworks"></a>
 
   * [CoDeSys](https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0) (Leading IEC 61131-3 development system in factory automation with powerful functions for fieldbus configuration, visualization, motion control and safety.)
-  * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications.)
-  * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (IOT / Low-code programming for event-driven applications)
+  * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
+  * [moss-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
+  * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (Low-code programming for event-driven applications for IoT)
 
 ## 7. Others Operating systems links<a name="oos"></a>
 
+  * VxWorks :
+    * [VxWorks Installation](https://labs.windriver.com/downloads/wrsdk-vxworks7-docs/README-raspberrypi4b.html)
+    * [VxWorks SDK](https://forums.windriver.com/t/vxworks-software-development-kit-sdk/43)
+    * [VxWorks Layer for ROS2](https://github.com/Wind-River/vxworks7-layer-for-ros2)
   * Buildroot :
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
@@ -676,6 +681,8 @@ Minicom is a simple terminal usefull to scan serials
   * AGL (Automotive grade Linux) :
     * [AGL Tutorial - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)  
     * [AGL Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/)
+  * Wind River Linux :
+    * [BSP](https://bsp.windriver.com/bsps/product/wind-river-linux_lts-21)
   * Victron's Venus OS :
     * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image)
 
