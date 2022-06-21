@@ -683,7 +683,7 @@ Minicom is a simple terminal usefull to scan serials
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
   * Ubuntu :
     * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
-    * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi) (10 years support)
+    * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi) (OTA update, 10 years support)
   * Redpesk (Marine Grade Linux) :
     * [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
   * AGL (Automotive grade Linux) :
