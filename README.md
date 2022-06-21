@@ -115,6 +115,7 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 6.2. [Tools](#tools)  
 6.3. [Protocols](#protocols)  
 6.4. [Databases](#databases)  
+6.5. [Install Frameworks](#frameworks)  
 7. [Others Operating Systems Links](#oos)  
 8.   [Disclaimers](#disclamers)
 
@@ -652,11 +653,17 @@ Minicom is a simple terminal usefull to scan serials
 
   * [Lely CANOpen](https://opensource.lely.com/canopen/docs/installation/)
   * [Signal K](https://signalk.org/) (Open marine data standard)
-  * [ROS2](https://docs.ros.org/en/foxy/index.html) (Robotics)
     
-#### 6.4 Databases <a name="databases"></a>
+### 6.4 Databases <a name="databases"></a>
 
 [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone) (Optimized for Geo Time Series)
+
+### 6.5 Install Frameworks <a name="frameworks"></a>
+
+  * [CoDeSys](https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0) (Leading IEC 61131-3 development system in factory automation with powerful functions for fieldbus configuration, visualization, motion control and safety.)
+  * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications.)
+  * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (IOT / Low-code programming for event-driven applications)
+
 ## 7. Others Operating systems links<a name="oos"></a>
 
 [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
