@@ -20,7 +20,7 @@
       </ul></li>
       <li><b>Hardware expansion flexibility :</b> <a href="mailto:contact@austral-eng.com">Contact us</a><ul>
         <li><b>Global wireless IoT</b> : LoRaWAN, SigFox, Zigbee, Xbee, Zwave, 4G/LTE, NB-IoT, Iridium SBD, <a href="https://swarm.space/">SpaceX Swarm</a>, <a href="https://www.kineis.com/en/">Kineis</a>...</li>
-        <li><b>AI accelerator</b> : Hailo-8, Google Coral...</li>
+        <li><b>AI/ML accelerator</b> : Hailo-8, Intel Movidius, Google Coral...</li>
       </ul></li>
       <li><b>Easy software installation and the support of the community</b> :<ul>
         <li><b>Any OS</b> : Linux (Debian pre-installed), RTOS (VxWorks, FreeRTOS...), Android, Windows</li>
