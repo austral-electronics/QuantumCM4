@@ -682,7 +682,7 @@ Minicom is a simple terminal usefull to scan serials
     * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi) (OTA update, 10 years support)
     * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
   * Specialized linux distributions :
-    * [Redpesk](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/) (Marine Grade Linux)  
+    * [Redpesk](https://redpesk.bzh/welcome/home) - [Image](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/) (Marine Grade Linux)  
     * [AGL](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi) - [Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/) (Automotive Grade Linux)
     * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image) (Energy management)
   * Bare Metal & RTOS :
