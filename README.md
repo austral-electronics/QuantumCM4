@@ -115,8 +115,8 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 6.2. [Tools](#tools)  
 6.3. [Protocols](#protocols)  
 6.4. [Databases](#databases)  
-6.5. [Install Frameworks](#frameworks)  
-7. [Others Operating Systems Links](#oos)  
+6.5. [Frameworks](#frameworks)  
+7. [Operating Systems Links](#oos)  
 8.   [Disclaimers](#disclamers)
 
 ## 1. Hardware <a name="hardware"></a>
@@ -659,7 +659,7 @@ Minicom is a simple terminal usefull to scan serials
   * [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone) (Optimized for Geo Time Series)
   * [Redis](https://redis.io/docs/reference/arm/) (The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.)
 
-### 6.5 Install Frameworks <a name="frameworks"></a>
+### 6.5 Frameworks <a name="frameworks"></a>
 
   * [CoDeSys](https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0) (Leading IEC 61131-3 development system in factory automation with powerful functions for fieldbus configuration, visualization, motion control and safety.)
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
@@ -668,7 +668,7 @@ Minicom is a simple terminal usefull to scan serials
   * [TensorFlow Install](https://qengineering.eu/install-tensorflow-2.7-on-raspberry-64-os.html) / [Versions](https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit) (AI)
   * [PyTorch](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) (AI)
 
-## 7. Others Operating systems links<a name="oos"></a>
+## 7. Operating systems links<a name="oos"></a>
 
   * VxWorks (Chosen for the Mars rovers) :
     * [VxWorks Installation](https://labs.windriver.com/downloads/wrsdk-vxworks7-docs/README-raspberrypi4b.html)
