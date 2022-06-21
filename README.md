@@ -23,7 +23,7 @@
         <li><b>AI accelerator</b> : Hailo-8, Google Coral...</li>
       </ul></li>
       <li><b>Easy software installation and the support of the community</b> :<ul>
-        <li><b>Any OS</b> : Linux (Pre-installed), VxWorks ...</li>
+        <li><b>Any OS</b> : Linux (Debian pre-installed), RTOS (VxWorks, FreeRTOS...), Android, Windows</li>
         <li><b>Any frameworks</b> : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...</li>
         <li><b>Any languages</b> : C/C++/Qt, Python, JS, Rust, Java, C#, Go...</li>
       </ul></li>        
@@ -667,23 +667,23 @@ Minicom is a simple terminal usefull to scan serials
 
 ## 7. Others Operating systems links<a name="oos"></a>
 
-  * VxWorks :
+  * VxWorks (Chosen for the Mars rovers) :
     * [VxWorks Installation](https://labs.windriver.com/downloads/wrsdk-vxworks7-docs/README-raspberrypi4b.html)
     * [VxWorks SDK](https://forums.windriver.com/t/vxworks-software-development-kit-sdk/43)
     * [VxWorks Layer for ROS2](https://github.com/Wind-River/vxworks7-layer-for-ros2)
-  * Buildroot :
+  * RTOS :
+    * [FreeRTOS](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS)
+    * [ChibiOS](https://github.com/steve-bate/ChibiOS-RPi)
+  * Roll your own small footprint embedded Linux :
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
-  * Yocto :
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
   * Redpesk (Marine Grade Linux) :
     * [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
   * AGL (Automotive grade Linux) :
     * [AGL Tutorial - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)  
     * [AGL Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/)
-  * Wind River Linux :
-    * [BSP](https://bsp.windriver.com/bsps/product/wind-river-linux_lts-21)
-  * Victron's Venus OS :
+  * Victron's Venus OS (Energy management) :
     * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image)
 
 ## Disclaimers <a name="disclamers"></a>
