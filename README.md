@@ -447,10 +447,10 @@ RTS1 (GPIO17) is used for the high/low impedance control in RS485/MODBUS mode.
     echo "24" > /sys/class/gpio/export
     echo "out" > /sys/class/gpio/gpio24/direction
     
-    # Config in RS232 mode 
+    # Then configure in RS232 mode 
     echo "0" > /sys/class/gpio/gpio24/value
     
-    # Config in RS485 mode
+    # Or configure in RS485 mode
     echo "1" > /sys/class/gpio/gpio24/value    
    
     # Configure
@@ -664,7 +664,7 @@ Minicom is a simple terminal usefull to scan serials
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
   * [moss-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
   * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (Low-code programming for event-driven applications for IoT)
-  * [TensorFlow Install](https://qengineering.eu/install-tensorflow-2.7-on-raspberry-64-os.html) [TensorFlow](https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit) (AI)
+  * [TensorFlow Install](https://qengineering.eu/install-tensorflow-2.7-on-raspberry-64-os.html) - [TensorFlow weel](https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit) (AI)
   * [PyTorch](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) (AI)
 
 ## 7. Others Operating systems links<a name="oos"></a>
