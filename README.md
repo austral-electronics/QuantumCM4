@@ -678,10 +678,10 @@ Minicom is a simple terminal usefull to scan serials
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
-  * Ubuntu :
-    * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi) (OTA update, 10 years support)
+  * Generic Headless Linux distributions :
     * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
   * Specialized linux distributions :
+    * [Ubuntu Core](https://ubuntu.com/core) - [Image](https://ubuntu.com/download/raspberry-pi) (Secure, application-centric IoT OS for embedded devices, OTA update, 10 years support)
     * [Redpesk](https://redpesk.bzh/welcome/home) - [Marine](https://docs.redpesk.bzh/docs/en/master/redpesk-marine/respesk-marine/blueprint.html)- [Image](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/) (Industrial IoT & Marine Grade Linux)  
     * [AGL](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi) - [Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/) (Automotive Grade Linux)
     * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image) (Energy management)
