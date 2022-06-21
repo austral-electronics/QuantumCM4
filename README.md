@@ -127,7 +127,7 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 
 ## 2. Operating system <a name="os"></a>
 Quantum CM4 is a headless product, it is designed to have its man-machine interface distributed on all types of web browsers, marine MFD displays and industrial touch panels. If you don't have real time constraints, you can of course install a linux, android or windows desktop distribution and develop via VNC but this is not the main purpose of this calculator.  
-We recommend the use of a [Debian](https://www.debian.org/index.en.html) distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, Vxworks, [Redpesk Marine Grade Linux](https://docs.redpesk.bzh/docs/en/master/getting_started/docs/overview.html), [Victron Energy Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image#supported-platforms), [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL), [Ubuntu Server](https://ubuntu.com/download/raspberry-pi), Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
+We recommend the use of a [Debian](https://www.debian.org/index.en.html) distribution if your system is not deployed in large quantities and you do not have a Linux specialist in your team. In the other cases, [Austral Electronics](http://austral-eng.com/en/accueil-english-2/) in partnership with [Linatsea](https://www.linatsea.fr/) can accompany you in the creation of a distribution adapted to your need:  Buildroot, Yocto, Vxworks, [Redpesk Marine Grade Linux](https://docs.redpesk.bzh/docs/en/master/getting_started/docs/overview.html), [Victron Energy Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image#supported-platforms), [Automotive Grade Linux](https://www.automotivelinux.org/) (AGL), [Ubuntu Server/core](https://ubuntu.com/download/raspberry-pi), Over-the-air (OTA) update : [Contact us](http://austral-eng.com/contact/)
 
 [Usefull links for others Operatings Systems](#oos)
 
@@ -680,6 +680,9 @@ Minicom is a simple terminal usefull to scan serials
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
+  * Ubuntu :
+    * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
+    * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi)
   * Redpesk (Marine Grade Linux) :
     * [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
   * AGL (Automotive grade Linux) :
