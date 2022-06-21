@@ -664,6 +664,8 @@ Minicom is a simple terminal usefull to scan serials
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
   * [moss-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
   * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (Low-code programming for event-driven applications for IoT)
+  * [TensorFlow Install] (https://qengineering.eu/install-tensorflow-2.7-on-raspberry-64-os.html) [TensorFlow](https://github.com/Qengineering/TensorFlow-Raspberry-Pi_64-bit) (AI)
+  * [PyTorch] (https://pytorch.org/tutorials/intermediate/realtime_rpi.html) (AI)
 
 ## 7. Others Operating systems links<a name="oos"></a>
 
