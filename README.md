@@ -676,7 +676,7 @@ Minicom is a simple terminal usefull to scan serials
   * RTOS :
     * [FreeRTOS](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS)
     * [ChibiOS](https://github.com/steve-bate/ChibiOS-RPi)
-  * Roll your own small footprint embedded Linux :
+  * Build your own small footprint embedded Linux :
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
