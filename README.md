@@ -657,6 +657,7 @@ Minicom is a simple terminal usefull to scan serials
 ### 6.4 Databases <a name="databases"></a>
 
   * [WARP10](https://www.warp10.io/content/03_Documentation/02_Installation/01_Standalone) (Optimized for Geo Time Series)
+  * [Redis](https://redis.io/docs/reference/arm/) (The open source, in-memory data store used by millions of developers as a database, cache, streaming engine, and message broker.)
 
 ### 6.5 Install Frameworks <a name="frameworks"></a>
 
