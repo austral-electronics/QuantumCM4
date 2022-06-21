@@ -674,23 +674,22 @@ Minicom is a simple terminal usefull to scan serials
     * [VxWorks Installation](https://labs.windriver.com/downloads/wrsdk-vxworks7-docs/README-raspberrypi4b.html)
     * [VxWorks SDK](https://forums.windriver.com/t/vxworks-software-development-kit-sdk/43)
     * [VxWorks Layer for ROS2](https://github.com/Wind-River/vxworks7-layer-for-ros2)
-  * RTOS :
-    * [FreeRTOS](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS)
-    * [ChibiOS](https://github.com/steve-bate/ChibiOS-RPi)
   * Build your own small footprint embedded Linux :
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
     * [Buildroot Github](https://github.com/buildroot/buildroot/blob/8d07baab43b5624ad6d73ee58f5a9d4ab8b27049/board/raspberrypi/readme.txt)  
     * [Yocto Tutorial](https://jumpnowtek.com/rpi/Raspberry-Pi-4-64bit-Systems-with-Yocto.html)  
   * Ubuntu :
-    * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
     * [Ubuntu Core](https://ubuntu.com/download/raspberry-pi) (OTA update, 10 years support)
-  * Redpesk (Marine Grade Linux) :
-    * [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/)  
-  * AGL (Automotive grade Linux) :
-    * [AGL Tutorial - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi)  
-    * [AGL Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/)
-  * Victron's Venus OS (Energy management) :
-    * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image)
+    * [Ubuntu Server](https://ubuntu.com/download/raspberry-pi)
+  * Specialized linux distributions :
+    * [Redpesk Image - Marine Grade Linux](https://download.redpesk.bzh/redpesk-lts/arz-1.0/images/smack/minimal/aarch64/generic/latest/) (Marine Grade Linux)  
+    * [AGL Tutorial - Automotive Grade Linux](https://wiki.automotivelinux.org/agl-distro/agl-raspberrypi) - [Image](https://download.automotivelinux.org/AGL/snapshots/master/latest/raspberrypi4/) (Automotive Grade Linux)
+    * [Venus OS](https://github.com/victronenergy/venus/wiki/raspberrypi-install-venus-image) (Energy management)
+  * Bare Metal & RTOS :
+    * [Bare Metal](https://www.valvers.com/open-software/raspberry-pi/bare-metal-programming-in-c-part-1/)
+    * [CircuitPyton](https://learn.adafruit.com/circuitpython-on-raspberry-pi-bare-metal-no-os?view=all) (Bare Metal Python)
+    * [FreeRTOS](https://github.com/jameswalmsley/RaspberryPi-FreeRTOS) (RTOS)
+    * [ChibiOS](https://github.com/steve-bate/ChibiOS-RPi) (RTOS)
 
 ## Disclaimers <a name="disclamers"></a>
 *Copyright (C) 2022 [Austral Electronics SARL](http://austral-eng.com/en/accueil-english-2/). Changes to the specifications and features in this manual may be made by Austral without prior notice. Specifications and information provided in this manual are for informational use only. Austral assumes no responsibility or liability for any errors or inaccuracies that may appear in this manual including the product & / or software. All trademarks mentioned in this manual are property of their respective owners. This product contains copyrighted software which are released under multiple open source licenses including but not limited to the GNU GPL, LGPL, and MIT BSD licenses. Such software is provided without warranty. Copies of these licenses are included in the software itself in further detail. For the latest up to date information, please visit our Github Repository at https://github.com/austral-electronics/QuantumCM4*
