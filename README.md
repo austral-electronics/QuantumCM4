@@ -673,6 +673,7 @@ Minicom is a simple terminal usefull to scan serials
   * VxWorks (Chosen for the Mars rovers) :
     * [VxWorks Installation](https://labs.windriver.com/downloads/wrsdk-vxworks7-docs/README-raspberrypi4b.html)
     * [VxWorks SDK](https://forums.windriver.com/t/vxworks-software-development-kit-sdk/43)
+    * [RO2 for VxWorks](https://www.windriver.com/resource/ros-2-for-vxworks-developer-brief)
     * [VxWorks Layer for ROS2](https://github.com/Wind-River/vxworks7-layer-for-ros2)
   * Build your own small footprint embedded Linux :
     * [Buildroot Boot in 5 sec video](https://www.youtube.com/watch?v=yxj8ynXXgbk)  
