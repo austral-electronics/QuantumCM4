@@ -121,7 +121,7 @@ The Quantum CM4 OEM is designed for ITAR-free, **SWaP-sensitive and real-time ap
 
 ## 1. Hardware <a name="hardware"></a>
 
-**Download a PDF Hardware specifications and installation** : [Here](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_OEM_Brief_Last.pdf)
+**Download a PDF Hardware specifications and installation** : [Here](https://github.com/austral-electronics/QuantumUltima/tree/main/pdf/Quantum_CM4_OEM_Brief_Last.pdf)
 
 ![QuantumCM4spec](/images/QuantumCM4specLR.png)
 
