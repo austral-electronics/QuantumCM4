@@ -6,7 +6,7 @@
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Key Features</b></td>
-    <td><b style="font-size:30px">Go Fast</b></td>
+    <td><b style="font-size:30px">Benefits</b></td>
  </tr>
  <tr>
     <td>The <b>Quantum CM4 is a SWaP-C platform : Cost-effective, Industrial, marinized IP67, -20/+60°C temperature range, miniaturized, very lightweight (only 212g), very low power consumtion, fanless...</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
@@ -29,7 +29,7 @@
       </ul></li>        
     </ul></td>
     <td><ul>
-     <li><b>Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% COMPATIBLE WITH THE RASPBERRY PI ECOSYSTEM</b>, designed for professional use, suitable for real-time applications and browser-based remote displays.</li>
+     <li><b>Go Fast : Makes it as easy as possible to build your next smart project operating in hostile environment</b> with a solution <b>100% COMPATIBLE WITH THE RASPBERRY PI ECOSYSTEM</b>, designed for professional use, suitable for real-time applications and browser-based remote displays.</li>
      <li><b>Shrink your team and schedule :</b> Focus on your core business by using a yet proven rugged hardware and a mainstream software solution. Develop from day one and take advantage of the support and examples of the largest developer community.</li>
      <li><b>Hardware flexibility :</b> Choose the memory, the storage, the WIFI option from a single unit. We can customize the expansion board, put your logo or add functionality for very low volumes. If a high level of integration is required, the Quantum CM4 bare electronic boards can also be integrated into your system (only 20g).</li>
      <li><b>Develop at warp speed with free tools:</b> Connect an instrument to the cloud, datalog, make a web live data dashboard, troubleshoot... in minutes and accessible to all !!!. it's possible. If it is suitable for your application, you can freely use <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-SDK">Red Carpet - IoT Software Suite</a>, our fast system integration solution based on <a href="https://nodered.org/">Node-RED</a> visual flow creator, which offers you a library of nearly 4000 <a href="https://github.com/austral-electronics/wiki/wiki/Quantum-nodes-collection">nodes</a> to connect everything.</li>
