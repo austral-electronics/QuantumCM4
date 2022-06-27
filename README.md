@@ -9,7 +9,7 @@
     <td><b style="font-size:30px">Benefits</b></td>
  </tr>
  <tr>
-    <td>The <b>Quantum CM4 is a SWaP-C platform : Cost-effective, Industrial, marinized IP67, -20 to+60/65°C temperature range, miniaturized, very lightweight (only 212g), very low power consumtion, fanless...</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
+    <td>The <b>Quantum CM4 is a SWaP-C platform : Cost-effective, Industrial, marinized IP67, -20 to +60/65°C temperature range, miniaturized, very lightweight (only 212g), very low power consumtion, fanless...</b>. It integrates a powerful quad core ARM processor, many Industrial, Marine, and Automotive field buses, Galvanic isolation, Protections, Watchdog, RTC with GNSS Time synchronisation, Wireless and a huge storage for your datalogs.<ul>
       <li><b>Field Interfaces :</b> <ul>
         <li><b>M12 Connectors</b> : Cables available on the shelf (Profinet, NMEA2000/DeviceNet/CANopen... standards cables)</li>
         <li><b>Wireless</b> : WIFI, Bluetooth, BLE</li>
