@@ -663,6 +663,7 @@ Minicom is a simple terminal usefull to scan serials
 ### 6.5 Frameworks <a name="frameworks"></a>
 
   * [CoDeSys](https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0) (Leading IEC 61131-3 development system in factory automation with powerful functions for fieldbus configuration, visualization, motion control and safety.)
+  * [OpenPLC](https://openplcproject.com/) (The first open source, multi-hardware Programmable Logic Controller Suite.)
   * [ROS2](https://docs.ros.org/en/foxy/index.html) (The Robot Operating System is a set of software libraries and tools that help you build robot applications.)
   * [Moos-ivp](https://oceanai.mit.edu/moos-ivp/pmwiki/pmwiki.php?n=Main.HomePage) (Set of open source C++ modules for providing autonomy on robotic platforms, in particular autonomous marine vehicles.)
   * [Node-Red](https://nodered.org/docs/getting-started/raspberrypi) (Low-code programming for event-driven applications for IoT)
