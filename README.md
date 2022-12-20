@@ -25,7 +25,7 @@
       </ul></li>
       <li><b>Easy software installation and the support of the community</b> :<ul>
         <li><b>Any OS</b> : Linux (Debian pre-installed), RTOS (VxWorks, FreeRTOS...), Android, Windows</li>
-        <li><b>Any frameworks</b> : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys), IoT (Node-Red), AI (TensorFlow, PyTorch)...</li>
+        <li><b>Any frameworks</b> : Robotics (ROS, ROS2, MOOS-IvP), PLC (CoDeSys, <a href="https://openplcproject.com/docs/openplc-overview/">OpenPLC</a>), IoT (Node-Red), AI (TensorFlow, PyTorch)...</li>
         <li><b>Any languages</b> : C/C++/Qt, Python, JS, Rust, Java, C#, Go...</li>
       </ul></li>        
     </ul></td>
