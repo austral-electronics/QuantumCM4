@@ -194,7 +194,7 @@ We recommend using [Pre-boot eXecution Environment](https://fr.wikipedia.org/wik
 
 ### 4.5. Create your own Debian image from scratch <a name="debian_from_scatch"></a>
 
-If you are a Linux Expert and want to build and customize your own Debian image, you can use (pi-gen)(https://github.com/RPi-Distro/pi-gen): [Tutorial](https://opensource.com/article/21/7/custom-raspberry-pi-image)
+If you want to build your own customized Debian image, you can follow this [Tutorial](https://opensource.com/article/21/7/custom-raspberry-pi-image) that uses [pi-gen](https://github.com/RPi-Distro/pi-gen) tool.
 
 Otherwise, the following example is the easiest way to create and deploy your own linux distribution with your applications pre-installed. You only need to customize a configuration script and somes settings (IP, password...).
 
