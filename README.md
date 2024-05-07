@@ -1,7 +1,9 @@
 # Quantum CM4 OEM - Rugged IP67 Mission Computer / IoT Gateway
 *[www.austral-elec.com](http://austral-eng.com/en/accueil-english-2/) - Intelligent Technologies for Marine, Industrial IoT and Unmanned Vehicles*  
 
-[![QuantumUltima](/images/Quantum_cm4_rugged_IP67_Raspberry_PI.png)](http://austral-eng.com/en/quantum-cm4-oem-en/)
+## NOT RECOMMANDED FOR NEW DESIGN - SEE THE [CM4 LIGHTING](http://austral-eng.com/en/austral-cm5-lightning/)
+
+[![QuantumUltima](/images/Quantum_cm4_rugged_IP67_Raspberry_PI.png)](http://austral-eng.com/en/austral-cm5-lightning/)
 
 <table border="0">
  <tr>
