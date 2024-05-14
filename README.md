@@ -3,7 +3,7 @@
 
 ## 🔴🔴🔴 For new designs we recommend the [Xplorer Product line](https://austral-eng.com/en/xplorer-cm5/) 🔴🔴🔴
 
-[![QuantumUltima](/images/Quantum_cm4_rugged_IP67_Raspberry_PI.png)](http://austral-eng.com/en/austral-cm5-lightning/)
+[![QuantumUltima](/images/Quantum_cm4_rugged_IP67_Raspberry_PI.png)](https://austral-eng.com/en/xplorer-cm5/)
 
 <table border="0">
  <tr>
